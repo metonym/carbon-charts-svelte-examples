@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "dependencies": {
+    "svelte": "^3.38.3"
+  },
+  "devDependencies": {
+    "@carbon/charts-svelte": "^0.41.87",
+    "@snowpack/plugin-svelte": "^3.7.0",
+    "d3": "5.x",
+    "snowpack": "3.8.2"
+  }
+}

@@ -1,0 +1,5 @@
+/**/build
+/**/dist
+/**/public/build
+/**/__sapper__
+/**/.svelte-kit
