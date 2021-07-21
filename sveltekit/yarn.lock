@@ -99,18 +99,18 @@
     "@babel/helper-validator-identifier" "^7.14.5"
     to-fast-properties "^2.0.0"
 
-"@carbon/charts-svelte@^0.41.86":
-  version "0.41.86"
-  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.41.86.tgz#e87fe00ed7f0a3d1e3068b283309880e95bc2b88"
-  integrity sha512-Gf/LGuERVjVFwj6K+f+Vr4l9fj/PJMcQHUBQd1MQzTGB4L1cNcQXD6Awf/rGMrCzcB2m8CUvCBmmH7eIO1DQ1w==
+"@carbon/charts-svelte@^0.41.88":
+  version "0.41.88"
+  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.41.88.tgz#b2c4199a0fc9a9c8764566bcb4a92c17edba6cad"
+  integrity sha512-NEnLVYOZrB1d3b8k1ysiYxgSgPetWlqsirMvfgcvCQqqnVmpgxDFs+v0bqIzCQsR/eEiWKQJc8xIK5kX0OwFQg==
   dependencies:
-    "@carbon/charts" "^0.41.86"
+    "@carbon/charts" "^0.41.88"
     "@carbon/telemetry" "0.0.0-alpha.6"
 
-"@carbon/charts@^0.41.86":
-  version "0.41.86"
-  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.41.86.tgz#f39d8b13aa1174a0d9bc6b532c9d666fd221b85b"
-  integrity sha512-JW5ewt7zFQBwx3J1BvqoVjhngjxg82mSP83Shi8We/N+ZDKzeH+DBU5X28AYvTRHRcUlAMatb7nh8SITAys/Ug==
+"@carbon/charts@^0.41.88":
+  version "0.41.88"
+  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.41.88.tgz#e5055dcd1d0b799c1400ade53a322bae4c515d4c"
+  integrity sha512-mp8smRg1HDl314vg0hTO+hrrw0GKpoN5wSDywEanCe6R54s7XAS1IgZRcdHpCIPtk02G6uJvHmQHTP9sX4kJjw==
   dependencies:
     "@carbon/colors" "10.15.0"
     "@carbon/telemetry" "0.0.0-alpha.6"
@@ -315,16 +315,6 @@ carbon-components@10.5.0:
   integrity sha512-ptsULtugjrrnj7rb2BYK3KAvNjbTdphh62OmOMNaLLswB7jA7S3rnXJrOOWt8o7PeEad3U0ewW49G9OlbpX+mg==
   dependencies:
     carbon-icons "^7.0.7"
-    flatpickr "4.6.1"
-    lodash.debounce "^4.0.8"
-    warning "^3.0.0"
-
-carbon-components@^10.39.0:
-  version "10.39.0"
-  resolved "https://registry.yarnpkg.com/carbon-components/-/carbon-components-10.39.0.tgz#384cf2467d3f213af16865c80703da9b96329573"
-  integrity sha512-UrDWQ1RlUr7Nn0b9Vs9E3p14V3o5U+3TS700hbHyAxYYq9CoI8WKQhx16x5Leot6dD8HVVTxkb3ahgv6iJG9Rg==
-  dependencies:
-    "@carbon/telemetry" "0.0.0-alpha.6"
     flatpickr "4.6.1"
     lodash.debounce "^4.0.8"
     warning "^3.0.0"
