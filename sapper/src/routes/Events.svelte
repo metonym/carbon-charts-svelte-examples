@@ -10,12 +10,17 @@
   }
 
   onMount(() => {
-    chart.services.events.addEventListener("bar-mouseover", barMouseOver);
-
     return () => {
-      chart.services.events.removeEventListener("bar-mouseover", barMouseOver);
+      if (chart)
+        chart.services.events.removeEventListener(
+          "bar-mouseover",
+          barMouseOver
+        );
     };
   });
+
+  $: if (chart)
+    chart.services.events.addEventListener("bar-mouseover", barMouseOver);
 </script>
 
 <BarChartSimple
