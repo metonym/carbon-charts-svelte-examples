@@ -1,6 +1,6 @@
-# examples
+# carbon-charts-svelte-examples
 
-> Collection of example set-ups using `@carbon/charts-svelte`
+> Minimal set-ups using `@carbon/charts-svelte`
 
 ## Running locally
 
@@ -13,8 +13,6 @@ Run `yarn build` to build the application for production.
 ## Codesandboxes
 
 Explore the examples adapted for Codesandbox.
-
-Note: sandboxes for Sapper and SvelteKit are a work in progress. 
 
 - [rollup](https://codesandbox.io/s/carbon-chart-svelte-rollup-5utx0)
 - [snowpack](https://codesandbox.io/s/carbon-charts-svelte-snowpack-3g1sb)
