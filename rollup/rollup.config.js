@@ -20,9 +20,7 @@ export default {
   plugins: [
     replace({
       preventAssignment: true,
-      "process.env.NODE_ENV": JSON.stringify(
-        production ? "production" : "development"
-      ),
+      "process.env.NODE_ENV": JSON.stringify(production ? "production" : "development"),
     }),
     svelte({ compilerOptions: { dev: !production } }),
     resolve({ browser: true, dedupe: ["svelte"] }),

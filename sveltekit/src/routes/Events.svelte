@@ -11,16 +11,11 @@
 
   onMount(() => {
     return () => {
-      if (chart)
-        chart.services.events.removeEventListener(
-          "bar-mouseover",
-          barMouseOver
-        );
+      if (chart) chart.services.events.removeEventListener("bar-mouseover", barMouseOver);
     };
   });
 
-  $: if (chart)
-    chart.services.events.addEventListener("bar-mouseover", barMouseOver);
+  $: if (chart) chart.services.events.addEventListener("bar-mouseover", barMouseOver);
 </script>
 
 <BarChartSimple

@@ -7,5 +7,9 @@
     "prettier": "^2.3.2",
     "prettier-plugin-svelte": "^2.3.1",
     "svelte": "^3.38.3"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "svelteBracketNewLine": true
   }
 }

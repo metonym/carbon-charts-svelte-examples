@@ -15,8 +15,7 @@ const legacy = !!process.env.SAPPER_LEGACY_BUILD;
 
 const onwarn = (warning, onwarn) =>
   (warning.code === "MISSING_EXPORT" && /'preload'/.test(warning.message)) ||
-  (warning.code === "CIRCULAR_DEPENDENCY" &&
-    /[/\\]@sapper[/\\]/.test(warning.message)) ||
+  (warning.code === "CIRCULAR_DEPENDENCY" && /[/\\]@sapper[/\\]/.test(warning.message)) ||
   onwarn(warning);
 
 export default {
@@ -51,10 +50,7 @@ export default {
           babelHelpers: "runtime",
           exclude: ["node_modules/@babel/**"],
           presets: [["@babel/preset-env", { targets: "> 0.25%, not dead" }]],
-          plugins: [
-            "@babel/plugin-syntax-dynamic-import",
-            ["@babel/plugin-transform-runtime", { useESModules: true }],
-          ],
+          plugins: ["@babel/plugin-syntax-dynamic-import", ["@babel/plugin-transform-runtime", { useESModules: true }]],
         }),
       !dev && terser({ module: true }),
     ],
@@ -86,9 +82,7 @@ export default {
       resolve({ dedupe: ["svelte"] }),
       commonjs(),
     ],
-    external: Object.keys(pkg.dependencies).concat(
-      require("module").builtinModules
-    ),
+    external: Object.keys(pkg.dependencies).concat(require("module").builtinModules),
     preserveEntrySignatures: "strict",
     onwarn,
   },
