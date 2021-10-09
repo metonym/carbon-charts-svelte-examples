@@ -1,7 +1,6 @@
 <script>
   import { onMount } from "svelte";
   import { BarChartSimple } from "@carbon/charts-svelte";
-  import "@carbon/charts/styles.min.css";
 
   let chart;
 

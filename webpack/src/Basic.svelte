@@ -1,6 +1,5 @@
 <script>
   import { BarChartSimple } from "@carbon/charts-svelte";
-  import "@carbon/charts/styles.min.css";
 </script>
 
 <BarChartSimple
