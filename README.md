@@ -1,6 +1,6 @@
 # carbon-charts-svelte-examples
 
-> Minimal set-ups using `@carbon/charts-svelte`
+> Minimal set-ups using [`@carbon/charts-svelte`](https://github.com/carbon-design-system/carbon-charts/tree/master/packages/svelte)
 
 ## Running locally
 
