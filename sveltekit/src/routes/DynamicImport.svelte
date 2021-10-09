@@ -1,6 +1,5 @@
 <script>
   import { onMount } from "svelte";
-  import "@carbon/charts/styles.min.css";
 
   let chart;
 
