@@ -4,9 +4,9 @@
     "format": "prettier --write ."
   },
   "devDependencies": {
-    "prettier": "^2.3.2",
-    "prettier-plugin-svelte": "^2.3.1",
-    "svelte": "^3.38.3"
+    "prettier": "^2.4.1",
+    "prettier-plugin-svelte": "^2.4.0",
+    "svelte": "^3.43.1"
   },
   "prettier": {
     "printWidth": 120,
