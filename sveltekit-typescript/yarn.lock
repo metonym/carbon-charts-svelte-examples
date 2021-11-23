@@ -99,18 +99,18 @@
     "@babel/helper-validator-identifier" "^7.15.7"
     to-fast-properties "^2.0.0"
 
-"@carbon/charts-svelte@^0.51.3":
-  version "0.51.3"
-  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.51.3.tgz#3b3e082148cd5a4a07ef2e5023fdbbf37d613eb0"
-  integrity sha512-Gok0akvNmZHICJPcDUQ1EKu6xsE2uF10tAOnh4x03W8TGsqx7WahswcTX8NFtZR1fASfpmFGj1BhITFF/732wA==
+"@carbon/charts-svelte@^0.52.3":
+  version "0.52.3"
+  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.52.3.tgz#6c3dc8f35ea72d27f732fee66c76072502a47d1a"
+  integrity sha512-xdiY9nL8JwZMtXzCoO4jzsJWqm8tEVosNu0ZJFhQEevNkv/49ic1I/nW1d8lbAMl6KbGB/EB8NtZezOSpWw9GQ==
   dependencies:
-    "@carbon/charts" "^0.51.3"
+    "@carbon/charts" "^0.52.3"
     "@carbon/telemetry" "0.0.0-alpha.6"
 
-"@carbon/charts@^0.51.3":
-  version "0.51.3"
-  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.51.3.tgz#35c0a0a79355fda9f2b022a93f4374f72fcbf378"
-  integrity sha512-hx7W5A2dy6N+/m3SebPkH4v35Lha5ZjMpArLJlV3mjbbZ6rdh2Sh9sowNxPEjkl6rpwZI690YzDMKC6plqRuVQ==
+"@carbon/charts@^0.52.3":
+  version "0.52.3"
+  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.52.3.tgz#be632915a99d96b8a04bf770d219e3be237e7383"
+  integrity sha512-iK9Oghj9K2VCp8e/IxP+IeeUKpwA0eRrmT6+e2v6/Pv6dapGUC6lf4OzMxtKsYvP0yBfG7d1qx+dWhep0MfdZg==
   dependencies:
     "@carbon/colors" "10.29.0"
     "@carbon/telemetry" "0.0.0-alpha.6"
@@ -1763,10 +1763,10 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-svelte-check@^2.2.9:
-  version "2.2.9"
-  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-2.2.9.tgz#667134662f268bcbfe5e22bcb596fcd524d67ab0"
-  integrity sha512-au77iP0v2f8F0gWu5Nk3dPkASk4H6DyLQEDQrQR6a7BWJaTnGEZKFhe5EsD8f9tHLyA4awPBi+D56hVuRsbgNA==
+svelte-check@^2.2.10:
+  version "2.2.10"
+  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-2.2.10.tgz#ca2e4fde2d077e703792d8301a643c36375f646c"
+  integrity sha512-UVLd/N7hUIG2v6dytofsw8MxYn2iS2hpNSglsGz9Z9b8ZfbJ5jayl4Mm1SXhNwiFs5aklG90zSBJtd7NTK8dTg==
   dependencies:
     chalk "^4.0.0"
     chokidar "^3.4.1"
@@ -1795,10 +1795,10 @@ svelte-preprocess@^4.0.0, svelte-preprocess@^4.9.4:
     sorcery "^0.10.0"
     strip-indent "^3.0.0"
 
-svelte@^3.44.1:
-  version "3.44.1"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.44.1.tgz#5cc772a8340f4519a4ecd1ac1a842325466b1a63"
-  integrity sha512-4DrCEJoBvdR689efHNSxIQn2pnFwB7E7j2yLEJtHE/P8hxwZWIphCtJ8are7bjl/iVMlcEf5uh5pJ68IwR09vQ==
+svelte@^3.44.2:
+  version "3.44.2"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.44.2.tgz#3e69be2598308dfc8354ba584cec54e648a50f7f"
+  integrity sha512-jrZhZtmH3ZMweXg1Q15onb8QlWD+a5T5Oca4C1jYvSURp2oD35h4A5TV6t6MEa93K4LlX6BkafZPdQoFjw/ylA==
 
 text-hex@1.0.x:
   version "1.0.0"
@@ -1842,10 +1842,15 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@*, typescript@^4.4.4:
+typescript@*:
   version "4.4.4"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.4.tgz#2cd01a1a1f160704d3101fd5a58ff0f9fcb8030c"
   integrity sha512-DqGhF5IKoBl8WNf8C1gu8q0xZSInh9j1kJJMqT3a94w1JzVaBU4EXOSMrz9yDqMT0xt3selp83fuFMQ0uzv6qA==
+
+typescript@^4.5.2:
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.2.tgz#8ac1fba9f52256fdb06fb89e4122fa6a346c2998"
+  integrity sha512-5BlMof9H1yGt0P8/WF+wPNw6GfctgGjXp5hkblpyT+8rkASSmkUKMXrxR0Xg8ThVCi/JnHQiKXeBaEwCeQwMFw==
 
 unique-string@^2.0.0:
   version "2.0.0"

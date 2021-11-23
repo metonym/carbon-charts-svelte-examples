@@ -5,10 +5,10 @@
     "build": "snowpack build"
   },
   "dependencies": {
-    "svelte": "^3.44.1"
+    "svelte": "^3.44.2"
   },
   "devDependencies": {
-    "@carbon/charts-svelte": "^0.51.3",
+    "@carbon/charts-svelte": "^0.52.3",
     "@snowpack/plugin-svelte": "^3.7.0",
     "d3": "7.1.1",
     "snowpack": "3.8.8"

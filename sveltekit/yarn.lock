@@ -99,18 +99,18 @@
     "@babel/helper-validator-identifier" "^7.15.7"
     to-fast-properties "^2.0.0"
 
-"@carbon/charts-svelte@^0.51.3":
-  version "0.51.3"
-  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.51.3.tgz#3b3e082148cd5a4a07ef2e5023fdbbf37d613eb0"
-  integrity sha512-Gok0akvNmZHICJPcDUQ1EKu6xsE2uF10tAOnh4x03W8TGsqx7WahswcTX8NFtZR1fASfpmFGj1BhITFF/732wA==
+"@carbon/charts-svelte@^0.52.3":
+  version "0.52.3"
+  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.52.3.tgz#6c3dc8f35ea72d27f732fee66c76072502a47d1a"
+  integrity sha512-xdiY9nL8JwZMtXzCoO4jzsJWqm8tEVosNu0ZJFhQEevNkv/49ic1I/nW1d8lbAMl6KbGB/EB8NtZezOSpWw9GQ==
   dependencies:
-    "@carbon/charts" "^0.51.3"
+    "@carbon/charts" "^0.52.3"
     "@carbon/telemetry" "0.0.0-alpha.6"
 
-"@carbon/charts@^0.51.3":
-  version "0.51.3"
-  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.51.3.tgz#35c0a0a79355fda9f2b022a93f4374f72fcbf378"
-  integrity sha512-hx7W5A2dy6N+/m3SebPkH4v35Lha5ZjMpArLJlV3mjbbZ6rdh2Sh9sowNxPEjkl6rpwZI690YzDMKC6plqRuVQ==
+"@carbon/charts@^0.52.3":
+  version "0.52.3"
+  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.52.3.tgz#be632915a99d96b8a04bf770d219e3be237e7383"
+  integrity sha512-iK9Oghj9K2VCp8e/IxP+IeeUKpwA0eRrmT6+e2v6/Pv6dapGUC6lf4OzMxtKsYvP0yBfG7d1qx+dWhep0MfdZg==
   dependencies:
     "@carbon/colors" "10.29.0"
     "@carbon/telemetry" "0.0.0-alpha.6"
@@ -1543,10 +1543,10 @@ svelte-hmr@^0.14.7:
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.14.7.tgz#7fa8261c7b225d9409f0a86f3b9ea5c3ca6f6607"
   integrity sha512-pDrzgcWSoMaK6AJkBWkmgIsecW0GChxYZSZieIYfCP0v2oPyx2CYU/zm7TBIcjLVUPP714WxmViE9Thht4etog==
 
-svelte@^3.44.1:
-  version "3.44.1"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.44.1.tgz#5cc772a8340f4519a4ecd1ac1a842325466b1a63"
-  integrity sha512-4DrCEJoBvdR689efHNSxIQn2pnFwB7E7j2yLEJtHE/P8hxwZWIphCtJ8are7bjl/iVMlcEf5uh5pJ68IwR09vQ==
+svelte@^3.44.2:
+  version "3.44.2"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.44.2.tgz#3e69be2598308dfc8354ba584cec54e648a50f7f"
+  integrity sha512-jrZhZtmH3ZMweXg1Q15onb8QlWD+a5T5Oca4C1jYvSURp2oD35h4A5TV6t6MEa93K4LlX6BkafZPdQoFjw/ylA==
 
 text-hex@1.0.x:
   version "1.0.0"
