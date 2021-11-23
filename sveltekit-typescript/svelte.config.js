@@ -1,5 +1,5 @@
 import adapter from "@sveltejs/adapter-node";
-import preprocess from 'svelte-preprocess';
+import preprocess from "svelte-preprocess";
 
 const production = process.env.NODE_ENV === "production";
 
@@ -8,7 +8,7 @@ const config = {
   preprocess: preprocess(),
   kit: {
     adapter: adapter(),
-    target: '#svelte',
+    target: "#svelte",
     vite: {
       optimizeDeps: {
         include: ["@carbon/charts"],
@@ -16,8 +16,8 @@ const config = {
       ssr: {
         noExternal: [production && "@carbon/charts"].filter(Boolean),
       },
-    }
-  }
+    },
+  },
 };
 
 export default config;
