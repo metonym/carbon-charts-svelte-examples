@@ -7,7 +7,7 @@
     "preview": "svelte-kit preview"
   },
   "devDependencies": {
-    "@carbon/charts-svelte": "^0.52.3",
+    "@carbon/charts-svelte": "^0.53.1",
     "@sveltejs/adapter-node": "next",
     "@sveltejs/adapter-static": "next",
     "@sveltejs/kit": "next",

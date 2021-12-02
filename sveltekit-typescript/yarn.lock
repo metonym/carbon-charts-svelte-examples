@@ -99,18 +99,18 @@
     "@babel/helper-validator-identifier" "^7.15.7"
     to-fast-properties "^2.0.0"
 
-"@carbon/charts-svelte@^0.52.3":
-  version "0.52.3"
-  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.52.3.tgz#6c3dc8f35ea72d27f732fee66c76072502a47d1a"
-  integrity sha512-xdiY9nL8JwZMtXzCoO4jzsJWqm8tEVosNu0ZJFhQEevNkv/49ic1I/nW1d8lbAMl6KbGB/EB8NtZezOSpWw9GQ==
+"@carbon/charts-svelte@^0.53.1":
+  version "0.53.1"
+  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.53.1.tgz#8917925b4eac917d665ef59d11ae69f0a14db4f3"
+  integrity sha512-HXI78lyHTvVlVBSx7GE6E0+uLA4UVY2vjXM1No+0Ud70UHNGcnkSf54kUZlvTw2/ZmUCGazYyu2hM3iDyHoqjQ==
   dependencies:
-    "@carbon/charts" "^0.52.3"
+    "@carbon/charts" "^0.53.1"
     "@carbon/telemetry" "0.0.0-alpha.6"
 
-"@carbon/charts@^0.52.3":
-  version "0.52.3"
-  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.52.3.tgz#be632915a99d96b8a04bf770d219e3be237e7383"
-  integrity sha512-iK9Oghj9K2VCp8e/IxP+IeeUKpwA0eRrmT6+e2v6/Pv6dapGUC6lf4OzMxtKsYvP0yBfG7d1qx+dWhep0MfdZg==
+"@carbon/charts@^0.53.1":
+  version "0.53.1"
+  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.53.1.tgz#e13792f13182326eb69e6adefa1738173ef8f44a"
+  integrity sha512-ej+qvS4WymwYoKlFlEhmRZ0y3x2+3PnD1ZnOGFDqHowMDai1ZFd2hfVT3nJDxCfOPdw/Qb5qAF1fE602qMb4Ug==
   dependencies:
     "@carbon/colors" "10.29.0"
     "@carbon/telemetry" "0.0.0-alpha.6"
@@ -458,9 +458,9 @@ color-name@^1.0.0, color-name@~1.1.4:
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
 color-string@^1.6.0:
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/color-string/-/color-string-1.8.1.tgz#d1aac7fab890df2b54c8012ca939c0a1129c370e"
-  integrity sha512-AGfGNQbnXlYqPStIx3QB2XA3Wy8vjbreqklmCiGVwcoHSLN5KIpDZDflYnXlBliKHI8CTBX3PsCgG+xfZgqK8A==
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/color-string/-/color-string-1.8.2.tgz#08bd49fa5f3889c27b0c670052ed746dd7a671de"
+  integrity sha512-w5ZkKRdLsc5NOYsmnpS2DpyRW71npwZGwbRpLrJTuqjfTs2Bhrba7UiV59IX9siBlCPl2pne5NtiwnVWUzvYFA==
   dependencies:
     color-name "^1.0.0"
     simple-swizzle "^0.2.2"
