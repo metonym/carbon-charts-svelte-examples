@@ -8,9 +8,9 @@
     "svelte": "^3.44.2"
   },
   "devDependencies": {
-    "@carbon/charts-svelte": "^0.53.1",
+    "@carbon/charts-svelte": "^0.53.3",
     "@snowpack/plugin-svelte": "^3.7.0",
-    "d3": "7.1.1",
+    "d3": "7.2.0",
     "snowpack": "3.8.8"
   }
 }

@@ -1054,18 +1054,18 @@
     "@babel/helper-validator-identifier" "^7.15.7"
     to-fast-properties "^2.0.0"
 
-"@carbon/charts-svelte@^0.53.1":
-  version "0.53.1"
-  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.53.1.tgz#8917925b4eac917d665ef59d11ae69f0a14db4f3"
-  integrity sha512-HXI78lyHTvVlVBSx7GE6E0+uLA4UVY2vjXM1No+0Ud70UHNGcnkSf54kUZlvTw2/ZmUCGazYyu2hM3iDyHoqjQ==
+"@carbon/charts-svelte@^0.53.3":
+  version "0.53.3"
+  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.53.3.tgz#f9eb622177e12fed54ed6d3d16f4ce654b741c78"
+  integrity sha512-WEn/+0nyNsyft8XHv17eApFetZ3Kk9QzQawBBSAYpM+J2k3jryYaAj/McMNqGZwykc4ZY4MxYi4D6+uhnVBMXg==
   dependencies:
-    "@carbon/charts" "^0.53.1"
+    "@carbon/charts" "^0.53.3"
     "@carbon/telemetry" "0.0.0-alpha.6"
 
-"@carbon/charts@^0.53.1":
-  version "0.53.1"
-  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.53.1.tgz#e13792f13182326eb69e6adefa1738173ef8f44a"
-  integrity sha512-ej+qvS4WymwYoKlFlEhmRZ0y3x2+3PnD1ZnOGFDqHowMDai1ZFd2hfVT3nJDxCfOPdw/Qb5qAF1fE602qMb4Ug==
+"@carbon/charts@^0.53.3":
+  version "0.53.3"
+  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.53.3.tgz#90dd96472ad9f14567db8222a7e8d4e962db7587"
+  integrity sha512-VTidn9C9vtF2eq8a5TFZ4KE/6M1idOlS0CnFBPVZA4Cdx6bmaUkFQ4ViHO6z8tOjaD/IgzYn+Dv/RPh4w5zsCA==
   dependencies:
     "@carbon/colors" "10.29.0"
     "@carbon/telemetry" "0.0.0-alpha.6"
@@ -1821,10 +1821,10 @@ d3-zoom@3:
     d3-selection "2 - 3"
     d3-transition "2 - 3"
 
-d3@7.1.1:
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/d3/-/d3-7.1.1.tgz#77b9a0c9893b13643b8e52316ec65dca3a6a115e"
-  integrity sha512-8zkLMwSvUAnfN9pcJDfkuxU0Nvg4RLUD0A4BZN1KxJPtlnCGzMx3xM5cRl4m8fym/Vy8rlq52tl90UF3m91OnA==
+d3@7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/d3/-/d3-7.2.0.tgz#5f2a738276e24ac523bd0921d161c9b3943dc912"
+  integrity sha512-0bh5lPzD6R/I/SjkcgyQlMaIsrZDgh40yMkdJaiZ/58YEbh4zz5EvtjaudzmI6ruwQNvxGm00trYUyPa992NSQ==
   dependencies:
     d3-array "3"
     d3-axis "3"
@@ -2712,10 +2712,10 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@^2.60.2:
-  version "2.60.2"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.60.2.tgz#3f45ace36a9b10b4297181831ea0719922513463"
-  integrity sha512-1Bgjpq61sPjgoZzuiDSGvbI1tD91giZABgjCQBKM5aYLnzjq52GoDuWVwT/cm/MCxCMPU8gqQvkj8doQ5C8Oqw==
+rollup@^2.61.0:
+  version "2.61.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.61.0.tgz#ccd927bcd6cc0c78a4689c918627a717977208f4"
+  integrity sha512-teQ+T1mUYbyvGyUavCodiyA9hD4DxwYZJwr/qehZGhs1Z49vsmzelMVYMxGU4ZhGRKxYPupHuz5yzm/wj7VpWA==
   optionalDependencies:
     fsevents "~2.3.2"
 

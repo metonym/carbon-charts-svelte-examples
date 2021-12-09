@@ -99,18 +99,18 @@
     "@babel/helper-validator-identifier" "^7.14.9"
     to-fast-properties "^2.0.0"
 
-"@carbon/charts-svelte@^0.53.1":
-  version "0.53.1"
-  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.53.1.tgz#8917925b4eac917d665ef59d11ae69f0a14db4f3"
-  integrity sha512-HXI78lyHTvVlVBSx7GE6E0+uLA4UVY2vjXM1No+0Ud70UHNGcnkSf54kUZlvTw2/ZmUCGazYyu2hM3iDyHoqjQ==
+"@carbon/charts-svelte@^0.53.3":
+  version "0.53.3"
+  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.53.3.tgz#f9eb622177e12fed54ed6d3d16f4ce654b741c78"
+  integrity sha512-WEn/+0nyNsyft8XHv17eApFetZ3Kk9QzQawBBSAYpM+J2k3jryYaAj/McMNqGZwykc4ZY4MxYi4D6+uhnVBMXg==
   dependencies:
-    "@carbon/charts" "^0.53.1"
+    "@carbon/charts" "^0.53.3"
     "@carbon/telemetry" "0.0.0-alpha.6"
 
-"@carbon/charts@^0.53.1":
-  version "0.53.1"
-  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.53.1.tgz#e13792f13182326eb69e6adefa1738173ef8f44a"
-  integrity sha512-ej+qvS4WymwYoKlFlEhmRZ0y3x2+3PnD1ZnOGFDqHowMDai1ZFd2hfVT3nJDxCfOPdw/Qb5qAF1fE602qMb4Ug==
+"@carbon/charts@^0.53.3":
+  version "0.53.3"
+  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.53.3.tgz#90dd96472ad9f14567db8222a7e8d4e962db7587"
+  integrity sha512-VTidn9C9vtF2eq8a5TFZ4KE/6M1idOlS0CnFBPVZA4Cdx6bmaUkFQ4ViHO6z8tOjaD/IgzYn+Dv/RPh4w5zsCA==
   dependencies:
     "@carbon/colors" "10.29.0"
     "@carbon/telemetry" "0.0.0-alpha.6"
@@ -1212,10 +1212,10 @@ d3-zoom@3:
     d3-selection "2 - 3"
     d3-transition "2 - 3"
 
-d3@7.1.1:
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/d3/-/d3-7.1.1.tgz#77b9a0c9893b13643b8e52316ec65dca3a6a115e"
-  integrity sha512-8zkLMwSvUAnfN9pcJDfkuxU0Nvg4RLUD0A4BZN1KxJPtlnCGzMx3xM5cRl4m8fym/Vy8rlq52tl90UF3m91OnA==
+d3@7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/d3/-/d3-7.2.0.tgz#5f2a738276e24ac523bd0921d161c9b3943dc912"
+  integrity sha512-0bh5lPzD6R/I/SjkcgyQlMaIsrZDgh40yMkdJaiZ/58YEbh4zz5EvtjaudzmI6ruwQNvxGm00trYUyPa992NSQ==
   dependencies:
     d3-array "3"
     d3-axis "3"
@@ -3461,10 +3461,10 @@ warning@^3.0.0:
   dependencies:
     loose-envify "^1.0.0"
 
-watchpack@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-2.3.0.tgz#a41bca3da6afaff31e92a433f4c856a0c25ea0c4"
-  integrity sha512-MnN0Q1OsvB/GGHETrFeZPQaOelWh/7O+EiFlj8sM9GPjtQkis7k01aAxrg/18kTfoIVcLL+haEVFlXDaSRwKRw==
+watchpack@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-2.3.1.tgz#4200d9447b401156eeca7767ee610f8809bc9d25"
+  integrity sha512-x0t0JuydIo8qCNctdDrn1OzH/qDzk2+rdCOC3YzumZ42fiMqmQ7T3xQurykYMhYfHaPHTp4ZxAx2NfUo1K6QaA==
   dependencies:
     glob-to-regexp "^0.4.1"
     graceful-fs "^4.1.2"
@@ -3549,10 +3549,10 @@ webpack-sources@^3.2.2:
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-3.2.2.tgz#d88e3741833efec57c4c789b6010db9977545260"
   integrity sha512-cp5qdmHnu5T8wRg2G3vZZHoJPN14aqQ89SyQ11NpGH5zEMDCclt49rzo+MaRazk7/UeILhAI+/sEtcM+7Fr0nw==
 
-webpack@^5.64.4:
-  version "5.64.4"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.64.4.tgz#e1454b6a13009f57cc2c78e08416cd674622937b"
-  integrity sha512-LWhqfKjCLoYJLKJY8wk2C3h77i8VyHowG3qYNZiIqD6D0ZS40439S/KVuc/PY48jp2yQmy0mhMknq8cys4jFMw==
+webpack@^5.65.0:
+  version "5.65.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.65.0.tgz#ed2891d9145ba1f0d318e4ea4f89c3fa18e6f9be"
+  integrity sha512-Q5or2o6EKs7+oKmJo7LaqZaMOlDWQse9Tm5l1WAfU/ujLGN5Pb0SqGeVkN/4bpPmEqEP5RnVhiqsOtWtUVwGRw==
   dependencies:
     "@types/eslint-scope" "^3.7.0"
     "@types/estree" "^0.0.50"
@@ -3576,7 +3576,7 @@ webpack@^5.64.4:
     schema-utils "^3.1.0"
     tapable "^2.1.1"
     terser-webpack-plugin "^5.1.3"
-    watchpack "^2.3.0"
+    watchpack "^2.3.1"
     webpack-sources "^3.2.2"
 
 websocket-driver@>=0.5.1, websocket-driver@^0.7.4:
