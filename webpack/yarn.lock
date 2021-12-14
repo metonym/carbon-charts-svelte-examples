@@ -99,18 +99,18 @@
     "@babel/helper-validator-identifier" "^7.14.9"
     to-fast-properties "^2.0.0"
 
-"@carbon/charts-svelte@^0.53.3":
-  version "0.53.3"
-  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.53.3.tgz#f9eb622177e12fed54ed6d3d16f4ce654b741c78"
-  integrity sha512-WEn/+0nyNsyft8XHv17eApFetZ3Kk9QzQawBBSAYpM+J2k3jryYaAj/McMNqGZwykc4ZY4MxYi4D6+uhnVBMXg==
+"@carbon/charts-svelte@^0.53.4":
+  version "0.53.4"
+  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.53.4.tgz#096b70b0a0e95e3a6da5cbc17e49a380816b9120"
+  integrity sha512-ae/j3XMVdwX8hAATJTWPDIr1srwpII7sCBLijlOH8+B/O8T0ehs9/W3W9v3eFxuDHD1YbbjMW/fViGr12ZXsHA==
   dependencies:
-    "@carbon/charts" "^0.53.3"
+    "@carbon/charts" "^0.53.4"
     "@carbon/telemetry" "0.0.0-alpha.6"
 
-"@carbon/charts@^0.53.3":
-  version "0.53.3"
-  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.53.3.tgz#90dd96472ad9f14567db8222a7e8d4e962db7587"
-  integrity sha512-VTidn9C9vtF2eq8a5TFZ4KE/6M1idOlS0CnFBPVZA4Cdx6bmaUkFQ4ViHO6z8tOjaD/IgzYn+Dv/RPh4w5zsCA==
+"@carbon/charts@^0.53.4":
+  version "0.53.4"
+  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.53.4.tgz#33ce98f86f61ac0edb4ef6beead757fec21c4309"
+  integrity sha512-ZL5m8FwQZcyS81pe+v+F5dM/VHkQOzJbTrWgNlZUcjY889ReqlkyC4yVU5w6MUYBIElSMv6pGPtBpiiKXgYc7g==
   dependencies:
     "@carbon/colors" "10.29.0"
     "@carbon/telemetry" "0.0.0-alpha.6"
@@ -1212,10 +1212,10 @@ d3-zoom@3:
     d3-selection "2 - 3"
     d3-transition "2 - 3"
 
-d3@7.2.0:
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/d3/-/d3-7.2.0.tgz#5f2a738276e24ac523bd0921d161c9b3943dc912"
-  integrity sha512-0bh5lPzD6R/I/SjkcgyQlMaIsrZDgh40yMkdJaiZ/58YEbh4zz5EvtjaudzmI6ruwQNvxGm00trYUyPa992NSQ==
+d3@7.2.1:
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/d3/-/d3-7.2.1.tgz#97eafaa6fc8cd7c564c3ace1e6678cbecf63f3ea"
+  integrity sha512-E/5sP0aeK6YPXI/+4QlefvBFgmcyR2jYftId0PrYWv4Y/gW3c3thp1XG4rQzF0eUwV9tR1x05X5eWuJ6rQXvew==
   dependencies:
     d3-array "3"
     d3-axis "3"
@@ -3314,10 +3314,10 @@ svelte-loader@^3.0.0:
     svelte-dev-helper "^1.1.9"
     svelte-hmr "^0.14.2"
 
-svelte@^3.44.2:
-  version "3.44.2"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.44.2.tgz#3e69be2598308dfc8354ba584cec54e648a50f7f"
-  integrity sha512-jrZhZtmH3ZMweXg1Q15onb8QlWD+a5T5Oca4C1jYvSURp2oD35h4A5TV6t6MEa93K4LlX6BkafZPdQoFjw/ylA==
+svelte@^3.44.3:
+  version "3.44.3"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.44.3.tgz#795b1ced6ed3da44969099e5061b850c93c95e9a"
+  integrity sha512-aGgrNCip5PQFNfq9e9tmm7EYxWLVHoFsEsmKrtOeRD8dmoGDdyTQ+21xd7qgFd8MNdKGSYvg7F9dr+Tc0yDymg==
 
 tapable@^2.0.0, tapable@^2.1.1, tapable@^2.2.0:
   version "2.2.1"
