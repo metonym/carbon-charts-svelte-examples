@@ -99,18 +99,18 @@
     "@babel/helper-validator-identifier" "^7.14.9"
     to-fast-properties "^2.0.0"
 
-"@carbon/charts-svelte@^0.53.4":
-  version "0.53.4"
-  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.53.4.tgz#096b70b0a0e95e3a6da5cbc17e49a380816b9120"
-  integrity sha512-ae/j3XMVdwX8hAATJTWPDIr1srwpII7sCBLijlOH8+B/O8T0ehs9/W3W9v3eFxuDHD1YbbjMW/fViGr12ZXsHA==
+"@carbon/charts-svelte@^0.54.0":
+  version "0.54.0"
+  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.54.0.tgz#3c9f374340a6a104d6b4537358ec6fdc26826019"
+  integrity sha512-xbVBQbhIaUUXTyjvcM9No6c9rjhc1thQpyIduZukCRL7GYZk7NFz7veku0Log1AEB/NKGq5Fp8vG6wZNkQMKIA==
   dependencies:
-    "@carbon/charts" "^0.53.4"
+    "@carbon/charts" "^0.54.0"
     "@carbon/telemetry" "0.0.0-alpha.6"
 
-"@carbon/charts@^0.53.4":
-  version "0.53.4"
-  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.53.4.tgz#33ce98f86f61ac0edb4ef6beead757fec21c4309"
-  integrity sha512-ZL5m8FwQZcyS81pe+v+F5dM/VHkQOzJbTrWgNlZUcjY889ReqlkyC4yVU5w6MUYBIElSMv6pGPtBpiiKXgYc7g==
+"@carbon/charts@^0.54.0":
+  version "0.54.0"
+  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.54.0.tgz#f213062a934c2a7ec9fc4f8a0a597d94fe1a41a1"
+  integrity sha512-vkYqjgUfgJAbioEe1hL1+XxXCoSzJkjl6cGzbL5yOyNoUP+6ngd7V3qVRhRiUskPm5/6bsH8ngteRWaROIgM5A==
   dependencies:
     "@carbon/colors" "10.29.0"
     "@carbon/telemetry" "0.0.0-alpha.6"
@@ -192,10 +192,10 @@
     magic-string "^0.25.7"
     resolve "^1.17.0"
 
-"@rollup/plugin-node-resolve@^13.1.1":
-  version "13.1.1"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-13.1.1.tgz#d38ba06e7b181ab4df64c75409b43d9bdc95ae34"
-  integrity sha512-6QKtRevXLrmEig9UiMYt2fSvee9TyltGRfw+qSs6xjUnxwjOzTOqy+/Lpxsgjb8mJn1EQNbCDAvt89O4uzL5kw==
+"@rollup/plugin-node-resolve@^13.1.2":
+  version "13.1.2"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-13.1.2.tgz#f05cbdce79e6d5fe1c4249a33ea961ea21cec258"
+  integrity sha512-xyqbuf1vyOPC60jEKhx3DBHunymnCJswzjNTKfX4Jz7zCPar1UqbRZCNY1u5QaXh97beaFTWdoUUWiV4qX8o/g==
   dependencies:
     "@rollup/pluginutils" "^3.1.0"
     "@types/resolve" "1.17.1"
@@ -204,10 +204,10 @@
     is-module "^1.0.0"
     resolve "^1.19.0"
 
-"@rollup/plugin-replace@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-replace/-/plugin-replace-3.0.0.tgz#3a4c9665d4e7a4ce2c360cf021232784892f3fac"
-  integrity sha512-3c7JCbMuYXM4PbPWT4+m/4Y6U60SgsnDT/cCyAyUKwFHg7pTSfsSQzIpETha3a3ig6OdOKzZz87D9ZXIK3qsDg==
+"@rollup/plugin-replace@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-replace/-/plugin-replace-3.0.1.tgz#f774550f482091719e52e9f14f67ffc0046a883d"
+  integrity sha512-989J5oRzf3mm0pO/0djTijdfEh9U3n63BIXN5X7T4U9BP+fN4oxQ6DvDuBvFaHA6scaHQRclqmKQEkBhB7k7Hg==
   dependencies:
     "@rollup/pluginutils" "^3.1.0"
     magic-string "^0.25.7"
@@ -1443,10 +1443,10 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@^2.61.1:
-  version "2.61.1"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.61.1.tgz#1a5491f84543cf9e4caf6c61222d9a3f8f2ba454"
-  integrity sha512-BbTXlEvB8d+XFbK/7E5doIcRtxWPRiqr0eb5vQ0+2paMM04Ye4PZY5nHOQef2ix24l/L0SpLd5hwcH15QHPdvA==
+rollup@^2.62.0:
+  version "2.62.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.62.0.tgz#9e640b419fc5b9e0241844f6d55258bd79986ecc"
+  integrity sha512-cJEQq2gwB0GWMD3rYImefQTSjrPYaC6s4J9pYqnstVLJ1CHa/aZNVkD4Epuvg4iLeMA4KRiq7UM7awKK6j7jcw==
   optionalDependencies:
     fsevents "~2.3.2"
 
