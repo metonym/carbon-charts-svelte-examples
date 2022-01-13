@@ -107,18 +107,18 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
-"@carbon/charts-svelte@^0.54.0":
-  version "0.54.0"
-  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.54.0.tgz#3c9f374340a6a104d6b4537358ec6fdc26826019"
-  integrity sha512-xbVBQbhIaUUXTyjvcM9No6c9rjhc1thQpyIduZukCRL7GYZk7NFz7veku0Log1AEB/NKGq5Fp8vG6wZNkQMKIA==
+"@carbon/charts-svelte@^0.54.7":
+  version "0.54.7"
+  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.54.7.tgz#a69e6dbf7d6f95f9d6e8579a8a143732b8b37801"
+  integrity sha512-/JuA/ul10DA5OgSiuwzteqWagQiqg30+u+gRH6h+Xc2WE1YTIvl40zmCyqIOpvLiHvBUl31vD43p3IsAEJSN+w==
   dependencies:
-    "@carbon/charts" "^0.54.0"
+    "@carbon/charts" "^0.54.7"
     "@carbon/telemetry" "0.0.0-alpha.6"
 
-"@carbon/charts@^0.54.0":
-  version "0.54.0"
-  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.54.0.tgz#f213062a934c2a7ec9fc4f8a0a597d94fe1a41a1"
-  integrity sha512-vkYqjgUfgJAbioEe1hL1+XxXCoSzJkjl6cGzbL5yOyNoUP+6ngd7V3qVRhRiUskPm5/6bsH8ngteRWaROIgM5A==
+"@carbon/charts@^0.54.7":
+  version "0.54.7"
+  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.54.7.tgz#49c41ee11ba13ba05a6a3151816e7955c948416c"
+  integrity sha512-plAHD3A5DcmRYIdgZmtD5eC4YumCzcVIqOKyWDUGho/qSHLu7y8peIM1xF8rt8GpXIw83O2EKv0nmhOqaoUzjg==
   dependencies:
     "@carbon/colors" "10.29.0"
     "@carbon/telemetry" "0.0.0-alpha.6"
@@ -1275,10 +1275,10 @@ d3-zoom@3:
     d3-selection "2 - 3"
     d3-transition "2 - 3"
 
-d3@7.2.1:
-  version "7.2.1"
-  resolved "https://registry.yarnpkg.com/d3/-/d3-7.2.1.tgz#97eafaa6fc8cd7c564c3ace1e6678cbecf63f3ea"
-  integrity sha512-E/5sP0aeK6YPXI/+4QlefvBFgmcyR2jYftId0PrYWv4Y/gW3c3thp1XG4rQzF0eUwV9tR1x05X5eWuJ6rQXvew==
+d3@7.3.0:
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/d3/-/d3-7.3.0.tgz#f3d5a22c1f658952a6491cf50132f5267ed7a40a"
+  integrity sha512-MDRLJCMK232OJQRqGljQ/gCxtB8k3/sLKFjftMjzPB3nKVUODpdW9Rb3vcq7U8Ka5YKoZkAmp++Ur6I+6iNWIw==
   dependencies:
     d3-array "3"
     d3-axis "3"
@@ -3552,10 +3552,10 @@ svelte-preprocess@^4.7.2:
     sorcery "^0.10.0"
     strip-indent "^3.0.0"
 
-svelte@^3.44.3:
-  version "3.44.3"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.44.3.tgz#795b1ced6ed3da44969099e5061b850c93c95e9a"
-  integrity sha512-aGgrNCip5PQFNfq9e9tmm7EYxWLVHoFsEsmKrtOeRD8dmoGDdyTQ+21xd7qgFd8MNdKGSYvg7F9dr+Tc0yDymg==
+svelte@^3.46.1:
+  version "3.46.1"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.46.1.tgz#8ea23595824a39d47d04c16c217000fbc4c52c49"
+  integrity sha512-Ue8ivq+G45AfZZL4Z93xNFiC352wPkyGiY9QSuWjxXh6jiaZMrpthinjc1rz0OSTceuST7Pxr1HDBj2KioliZg==
 
 tar@^6.0.2, tar@^6.1.0:
   version "6.1.11"
