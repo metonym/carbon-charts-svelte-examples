@@ -24,7 +24,7 @@ export default {
 
   // ignore Rollup warnings for d3 circular dependencies
   onwarn: (warning, warn) => {
-    if (warning.code === 'CIRCULAR_DEPENDENCY' && /^node_modules\/d3-/.test(warning.importer)) return;
+    if (warning.code === 'CIRCULAR_DEPENDENCY' && /^node_modules\/(d3-|@carbon\/charts)/.test(warning.importer)) return;
     warn(warning);
   },
   plugins: [
