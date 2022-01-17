@@ -9,15 +9,25 @@ const production = !process.env.ROLLUP_WATCH;
 
 export default {
   input: "src/index.js",
-  context: "window",
-  inlineDynamicImports: true,
   output: {
     sourcemap: !production,
     format: "iife",
     name: "app",
     file: "public/build/bundle.js",
   },
+
+  // avoid "`this` has been rewritten to `undefined`" Rollup error
+  context: "window",
+
+  // required if dynamically importing code
+  inlineDynamicImports: true,
+
+  // ignore Rollup warnings for d3 circular dependencies
+  onwarn: (warning) => {
+    if (warning.code === 'CIRCULAR_DEPENDENCY' && /^node_modules\/d3-/.test(warning.importer)) return;
+  },
   plugins: [
+    // required to avoid "process is not defined" browser error
     replace({
       preventAssignment: true,
       "process.env.NODE_ENV": JSON.stringify(production ? "production" : "development"),
@@ -27,5 +37,5 @@ export default {
     commonjs(),
     css({ output: "bundle.css" }),
     production && terser(),
-  ],
+  ]
 };
