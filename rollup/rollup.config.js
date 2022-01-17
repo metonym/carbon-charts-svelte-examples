@@ -23,8 +23,9 @@ export default {
   inlineDynamicImports: true,
 
   // ignore Rollup warnings for d3 circular dependencies
-  onwarn: (warning) => {
+  onwarn: (warning, warn) => {
     if (warning.code === 'CIRCULAR_DEPENDENCY' && /^node_modules\/d3-/.test(warning.importer)) return;
+    warn(warning);
   },
   plugins: [
     // required to avoid "process is not defined" browser error
