@@ -1,9 +1,19 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import { BarChartSimple } from "@carbon/charts-svelte";
-  import { ScaleTypes } from "@carbon/charts/interfaces";
+  import type { SimpleBarChart } from "@carbon/charts";
+  import type { BarChartOptions, ScaleTypes } from "@carbon/charts/interfaces";
 
-  let chart = null;
+  let chart: null | SimpleBarChart = null;
+
+  const options: BarChartOptions = {
+    title: "Simple bar (discrete)",
+    height: "400px",
+    axes: {
+      left: { mapsTo: "value" },
+      bottom: { mapsTo: "group", scaleType: "labels" as ScaleTypes.LABELS },
+    },
+  };
 
   function barMouseOver(e: MouseEvent) {
     console.log(e.detail);
@@ -27,12 +37,5 @@
     { group: "Restocking", value: 51213 },
     { group: "Misc", value: 16932 },
   ]}
-  options={{
-    title: "Simple bar (discrete)",
-    height: "400px",
-    axes: {
-      left: { mapsTo: "value" },
-      bottom: { mapsTo: "group", scaleType: ScaleTypes.LABELS },
-    },
-  }}
+  {options}
 />

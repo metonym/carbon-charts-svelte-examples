@@ -1,7 +1,17 @@
 <script lang="ts">
   import { onMount } from "svelte";
+  import type { BarChartOptions, ScaleTypes } from "@carbon/charts/interfaces";
 
   let chart: typeof import("@carbon/charts-svelte").BarChartSimple;
+
+  const options: BarChartOptions = {
+    title: "Simple bar (discrete)",
+    height: "400px",
+    axes: {
+      left: { mapsTo: "value" },
+      bottom: { mapsTo: "group", scaleType: "labels" as ScaleTypes.LABELS },
+    },
+  };
 
   onMount(async () => {
     const charts = await import("@carbon/charts-svelte");
@@ -18,12 +28,5 @@
     { group: "Restocking", value: 51213 },
     { group: "Misc", value: 16932 },
   ]}
-  options={{
-    title: "Simple bar (discrete)",
-    height: "400px",
-    axes: {
-      left: { mapsTo: "value" },
-      bottom: { mapsTo: "group", scaleType: "labels" },
-    },
-  }}
+  {options}
 />
