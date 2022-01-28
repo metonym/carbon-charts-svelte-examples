@@ -9,16 +9,16 @@
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
   },
   "dependencies": {
-    "@carbon/charts-svelte": "^0.54.7"
+    "@carbon/charts-svelte": "^0.54.10"
   },
   "devDependencies": {
     "@sveltejs/adapter-node": "next",
     "@sveltejs/kit": "next",
     "d3": "^7.3.0",
-    "svelte": "^3.46.1",
+    "svelte": "^3.46.3",
     "svelte-check": "^2.3.0",
-    "svelte-preprocess": "^4.10.1",
+    "svelte-preprocess": "^4.10.2",
     "tslib": "^2.3.1",
-    "typescript": "^4.5.4"
+    "typescript": "^4.5.5"
   }
 }

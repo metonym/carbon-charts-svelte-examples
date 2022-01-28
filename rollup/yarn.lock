@@ -99,18 +99,18 @@
     "@babel/helper-validator-identifier" "^7.14.9"
     to-fast-properties "^2.0.0"
 
-"@carbon/charts-svelte@^0.54.7":
-  version "0.54.7"
-  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.54.7.tgz#a69e6dbf7d6f95f9d6e8579a8a143732b8b37801"
-  integrity sha512-/JuA/ul10DA5OgSiuwzteqWagQiqg30+u+gRH6h+Xc2WE1YTIvl40zmCyqIOpvLiHvBUl31vD43p3IsAEJSN+w==
+"@carbon/charts-svelte@^0.54.10":
+  version "0.54.10"
+  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.54.10.tgz#1ccd4225553b5b96929d6a993f937ee2e92d565e"
+  integrity sha512-NojZ0KNI1ErdrZACcXnMdLCieFmRbnhMpoarISwgVPQVPfPbG12VIiGZuKZUTUxuYsDecZ5YYDzxXB1XzGF26w==
   dependencies:
-    "@carbon/charts" "^0.54.7"
+    "@carbon/charts" "^0.54.10"
     "@carbon/telemetry" "0.0.0-alpha.6"
 
-"@carbon/charts@^0.54.7":
-  version "0.54.7"
-  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.54.7.tgz#49c41ee11ba13ba05a6a3151816e7955c948416c"
-  integrity sha512-plAHD3A5DcmRYIdgZmtD5eC4YumCzcVIqOKyWDUGho/qSHLu7y8peIM1xF8rt8GpXIw83O2EKv0nmhOqaoUzjg==
+"@carbon/charts@^0.54.10":
+  version "0.54.10"
+  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.54.10.tgz#d6bfb808c155a92d97cf99f96e3b3e4a9e7c2c43"
+  integrity sha512-2/ubaXURLNUglp3nNwsZlyex6VGCPB/pVadyrJR/oRsJ5/X+xCO384rD6y37B1osBYTSD07scUii4b+7M5QPFQ==
   dependencies:
     "@carbon/colors" "10.29.0"
     "@carbon/telemetry" "0.0.0-alpha.6"
@@ -1443,10 +1443,10 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@^2.63.0:
-  version "2.63.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.63.0.tgz#fe2f7fec2133f3fab9e022b9ac245628d817c6bb"
-  integrity sha512-nps0idjmD+NXl6OREfyYXMn/dar3WGcyKn+KBzPdaLecub3x/LrId0wUcthcr8oZUAcZAR8NKcfGGFlNgGL1kQ==
+rollup@^2.66.1:
+  version "2.66.1"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.66.1.tgz#366b0404de353c4331d538c3ad2963934fcb4937"
+  integrity sha512-crSgLhSkLMnKr4s9iZ/1qJCplgAgrRY+igWv8KhG/AjKOJ0YX/WpmANyn8oxrw+zenF3BXWDLa7Xl/QZISH+7w==
   optionalDependencies:
     fsevents "~2.3.2"
 
@@ -1590,10 +1590,10 @@ supports-color@^7.0.0:
   dependencies:
     has-flag "^4.0.0"
 
-svelte@^3.46.1:
-  version "3.46.1"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.46.1.tgz#8ea23595824a39d47d04c16c217000fbc4c52c49"
-  integrity sha512-Ue8ivq+G45AfZZL4Z93xNFiC352wPkyGiY9QSuWjxXh6jiaZMrpthinjc1rz0OSTceuST7Pxr1HDBj2KioliZg==
+svelte@^3.46.3:
+  version "3.46.3"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.46.3.tgz#31202b0c795f276726d95b648b6dd413116257ac"
+  integrity sha512-mTOXvv74CVQqJHqoIZDprVfRKVVmYNadXP0VKnOEA54223kLGCr1nMrifS4Zx29qMt/xRB38Eq1D7dDH/fM8fQ==
 
 terser@^5.0.0:
   version "5.9.0"
