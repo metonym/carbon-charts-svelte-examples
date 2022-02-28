@@ -107,18 +107,18 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
-"@carbon/charts-svelte@^0.54.10":
-  version "0.54.10"
-  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.54.10.tgz#1ccd4225553b5b96929d6a993f937ee2e92d565e"
-  integrity sha512-NojZ0KNI1ErdrZACcXnMdLCieFmRbnhMpoarISwgVPQVPfPbG12VIiGZuKZUTUxuYsDecZ5YYDzxXB1XzGF26w==
+"@carbon/charts-svelte@^0.54.12":
+  version "0.54.12"
+  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.54.12.tgz#e46db1246c32340f8a47013f1d9fb5b6fc32915d"
+  integrity sha512-Cm6Hx6ZDHEGnXqT2cRGIqCEpHeFXVleKvDoY7lwR+oJjDMbx2KU6j1AYOv0krxla6FbFZhWhY71swn0xSkMDKA==
   dependencies:
-    "@carbon/charts" "^0.54.10"
+    "@carbon/charts" "^0.54.12"
     "@carbon/telemetry" "0.0.0-alpha.6"
 
-"@carbon/charts@^0.54.10":
-  version "0.54.10"
-  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.54.10.tgz#d6bfb808c155a92d97cf99f96e3b3e4a9e7c2c43"
-  integrity sha512-2/ubaXURLNUglp3nNwsZlyex6VGCPB/pVadyrJR/oRsJ5/X+xCO384rD6y37B1osBYTSD07scUii4b+7M5QPFQ==
+"@carbon/charts@^0.54.12":
+  version "0.54.12"
+  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.54.12.tgz#bea9e9a001f0b6e9655845c910a4d68a5e1fba89"
+  integrity sha512-zXg6CiDRUhQNRyfHaEn7ZRkmhh/HjIq1WsSoHLSNvEIl/oxZ1SkSOlw2D8EB0PaALxC2TfvM4FYiTP8c/mj8YQ==
   dependencies:
     "@carbon/colors" "10.29.0"
     "@carbon/telemetry" "0.0.0-alpha.6"
@@ -3552,10 +3552,10 @@ svelte-preprocess@^4.7.2:
     sorcery "^0.10.0"
     strip-indent "^3.0.0"
 
-svelte@^3.46.3:
-  version "3.46.3"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.46.3.tgz#31202b0c795f276726d95b648b6dd413116257ac"
-  integrity sha512-mTOXvv74CVQqJHqoIZDprVfRKVVmYNadXP0VKnOEA54223kLGCr1nMrifS4Zx29qMt/xRB38Eq1D7dDH/fM8fQ==
+svelte@^3.46.4:
+  version "3.46.4"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.46.4.tgz#0c46bc4a3e20a2617a1b7dc43a722f9d6c084a38"
+  integrity sha512-qKJzw6DpA33CIa+C/rGp4AUdSfii0DOTCzj/2YpSKKayw5WGSS624Et9L1nU1k2OVRS9vaENQXp2CVZNU+xvIg==
 
 tar@^6.0.2, tar@^6.1.0:
   version "6.1.11"
