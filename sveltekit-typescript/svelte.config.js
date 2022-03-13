@@ -8,7 +8,6 @@ const config = {
   preprocess: preprocess(),
   kit: {
     adapter: adapter(),
-    target: "#svelte",
     vite: {
       optimizeDeps: {
         include: ["@carbon/charts"],

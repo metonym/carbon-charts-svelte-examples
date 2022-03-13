@@ -107,18 +107,18 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
-"@carbon/charts-svelte@^0.54.12":
-  version "0.54.12"
-  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.54.12.tgz#e46db1246c32340f8a47013f1d9fb5b6fc32915d"
-  integrity sha512-Cm6Hx6ZDHEGnXqT2cRGIqCEpHeFXVleKvDoY7lwR+oJjDMbx2KU6j1AYOv0krxla6FbFZhWhY71swn0xSkMDKA==
+"@carbon/charts-svelte@^0.54.13":
+  version "0.54.13"
+  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.54.13.tgz#ef951d1d14bd641dfa7d25a552ab6ec9adb8fea4"
+  integrity sha512-AUVoFs71f0tCMdd5NgIAB4Is22BnUBEneq/hdd7lHwMPvf1BKa7xRIG6GPXiopxNOnluRyVs4T12zJAfOd8XOA==
   dependencies:
-    "@carbon/charts" "^0.54.12"
+    "@carbon/charts" "^0.54.13"
     "@carbon/telemetry" "0.0.0-alpha.6"
 
-"@carbon/charts@^0.54.12":
-  version "0.54.12"
-  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.54.12.tgz#bea9e9a001f0b6e9655845c910a4d68a5e1fba89"
-  integrity sha512-zXg6CiDRUhQNRyfHaEn7ZRkmhh/HjIq1WsSoHLSNvEIl/oxZ1SkSOlw2D8EB0PaALxC2TfvM4FYiTP8c/mj8YQ==
+"@carbon/charts@^0.54.13":
+  version "0.54.13"
+  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.54.13.tgz#ba7c0a9e9eb75590506ef68dca0094c4a8a49554"
+  integrity sha512-Ar8w7PVVru2ZcW+ET+TPZOMOcB7SuFWcvbEmkVNF6NsS9vcUxE2LQ8TuVjl31IHkXfd5OK/uyvf94RlVd99z4g==
   dependencies:
     "@carbon/colors" "10.29.0"
     "@carbon/telemetry" "0.0.0-alpha.6"
