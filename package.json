@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "format": "prettier --write ."
+    "format": "prettier --ignore-path .gitignore --write ."
   },
   "devDependencies": {
     "prettier": "^2.5.1",
