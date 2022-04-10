@@ -99,21 +99,21 @@
     "@babel/helper-validator-identifier" "^7.14.9"
     to-fast-properties "^2.0.0"
 
-"@carbon/charts-svelte@^0.54.13":
-  version "0.54.13"
-  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.54.13.tgz#ef951d1d14bd641dfa7d25a552ab6ec9adb8fea4"
-  integrity sha512-AUVoFs71f0tCMdd5NgIAB4Is22BnUBEneq/hdd7lHwMPvf1BKa7xRIG6GPXiopxNOnluRyVs4T12zJAfOd8XOA==
+"@carbon/charts-svelte@^0.56.0":
+  version "0.56.0"
+  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.56.0.tgz#1237a054b9d9eb9bd5271f5e86beca90291770c2"
+  integrity sha512-T+NAe4bnCUZTtjYPMxb9sPkv6A0L+aaGMVG3jjj02jCw4Vnxsu1uDxF3TtjgBQC1AQJ0BFsUHffOrjlUJB/pmw==
   dependencies:
-    "@carbon/charts" "^0.54.13"
+    "@carbon/charts" "^0.56.0"
     "@carbon/telemetry" "0.0.0-alpha.6"
 
-"@carbon/charts@^0.54.13":
-  version "0.54.13"
-  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.54.13.tgz#ba7c0a9e9eb75590506ef68dca0094c4a8a49554"
-  integrity sha512-Ar8w7PVVru2ZcW+ET+TPZOMOcB7SuFWcvbEmkVNF6NsS9vcUxE2LQ8TuVjl31IHkXfd5OK/uyvf94RlVd99z4g==
+"@carbon/charts@^0.56.0":
+  version "0.56.0"
+  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.56.0.tgz#722d58f0e2040bbaf6c05756967a947c9a87b335"
+  integrity sha512-FWnq8YGya2ZnzfkbPERav600S+567fz0dWbsIyyNbtt77YMJTo3E0UbyJIQVq7XcAIQsjP0Ga9o9rNLWyKq/3A==
   dependencies:
     "@carbon/colors" "10.29.0"
-    "@carbon/telemetry" "0.0.0-alpha.6"
+    "@carbon/telemetry" "0.1.0"
     "@carbon/utils-position" "1.1.1"
     carbon-components "10.40.0"
     d3-cloud "1.2.5"
@@ -143,6 +143,11 @@
     semver "^7.3.2"
     winston "^3.3.3"
     yargs "^16.1.1"
+
+"@carbon/telemetry@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@carbon/telemetry/-/telemetry-0.1.0.tgz#57b331cd5a855b4abbf55457456da8211624d879"
+  integrity sha512-kNWt0bkgPwGW0i5h7HFuljbKRXPvIhsKbB+1tEURAYLXoJg9iJLF1eGvWN5iVoFCS2zje4GR3OGOsvvKVe7Hlg==
 
 "@carbon/utils-position@1.1.1":
   version "1.1.1"
@@ -179,10 +184,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@rollup/plugin-commonjs@^21.0.2":
-  version "21.0.2"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-21.0.2.tgz#0b9c539aa1837c94abfaf87945838b0fc8564891"
-  integrity sha512-d/OmjaLVO4j/aQX69bwpWPpbvI3TJkQuxoAk7BH8ew1PyoMBLTOuvJTjzG8oEoW7drIIqB0KCJtfFLu/2GClWg==
+"@rollup/plugin-commonjs@^21.0.3":
+  version "21.0.3"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-21.0.3.tgz#287896c64926ef3d7f0013708dcdcc1223576ef0"
+  integrity sha512-ThGfwyvcLc6cfP/MWxA5ACF+LZCvsuhUq7V5134Az1oQWsiC7lNpLT4mJI86WQunK7BYmpUiHmMk2Op6OAHs0g==
   dependencies:
     "@rollup/pluginutils" "^3.1.0"
     commondir "^1.0.1"
@@ -751,10 +756,10 @@ d3-zoom@3:
     d3-selection "2 - 3"
     d3-transition "2 - 3"
 
-d3@7.3.0:
-  version "7.3.0"
-  resolved "https://registry.yarnpkg.com/d3/-/d3-7.3.0.tgz#f3d5a22c1f658952a6491cf50132f5267ed7a40a"
-  integrity sha512-MDRLJCMK232OJQRqGljQ/gCxtB8k3/sLKFjftMjzPB3nKVUODpdW9Rb3vcq7U8Ka5YKoZkAmp++Ur6I+6iNWIw==
+d3@7.4.3:
+  version "7.4.3"
+  resolved "https://registry.yarnpkg.com/d3/-/d3-7.4.3.tgz#7bcd4f4d19e4359180a84d9cfd678761a269cbf7"
+  integrity sha512-x5cxHjtlXjtCzzaFv23mk6JKHKJzkYm/ePygQdeztcwYVedTHVQ7INyuAmRfjO7d4HTzQuofxzqva/d06Nh++Q==
   dependencies:
     d3-array "3"
     d3-axis "3"
@@ -1443,10 +1448,10 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@^2.70.0:
-  version "2.70.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.70.0.tgz#17a92e5938e92a251b962352e904c9f558230ec7"
-  integrity sha512-iEzYw+syFxQ0X9RefVwhr8BA2TNJsTaX8L8dhyeyMECDbmiba+8UQzcu+xZdji0+JQ+s7kouQnw+9Oz5M19XKA==
+rollup@^2.70.1:
+  version "2.70.1"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.70.1.tgz#824b1f1f879ea396db30b0fc3ae8d2fead93523e"
+  integrity sha512-CRYsI5EuzLbXdxC6RnYhOuRdtz4bhejPMSWjsFLfVM/7w/85n2szZv6yExqUXsBdz5KT8eoubeyDUDjhLHEslA==
   optionalDependencies:
     fsevents "~2.3.2"
 
@@ -1590,10 +1595,10 @@ supports-color@^7.0.0:
   dependencies:
     has-flag "^4.0.0"
 
-svelte@^3.46.4:
-  version "3.46.4"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.46.4.tgz#0c46bc4a3e20a2617a1b7dc43a722f9d6c084a38"
-  integrity sha512-qKJzw6DpA33CIa+C/rGp4AUdSfii0DOTCzj/2YpSKKayw5WGSS624Et9L1nU1k2OVRS9vaENQXp2CVZNU+xvIg==
+svelte@^3.47.0:
+  version "3.47.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.47.0.tgz#ba46fe4aea99fc650d6939c215cd4694f5325a19"
+  integrity sha512-4JaJp3HEoTCGARRWZQIZDUanhYv0iyoHikklVHVLH9xFE9db22g4TDv7CPeNA8HD1JgjXI1vlhR1JZvvhaTu2Q==
 
 terser@^5.0.0:
   version "5.9.0"
