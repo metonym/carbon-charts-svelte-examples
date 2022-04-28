@@ -99,18 +99,18 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
-"@carbon/charts-svelte@^0.56.0":
-  version "0.56.0"
-  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.56.0.tgz#1237a054b9d9eb9bd5271f5e86beca90291770c2"
-  integrity sha512-T+NAe4bnCUZTtjYPMxb9sPkv6A0L+aaGMVG3jjj02jCw4Vnxsu1uDxF3TtjgBQC1AQJ0BFsUHffOrjlUJB/pmw==
+"@carbon/charts-svelte@^0.57.0":
+  version "0.57.0"
+  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-0.57.0.tgz#0e5d48243807b7c1d19b6c21cfc909db7277213d"
+  integrity sha512-qrzglDiEO2Y7QudH014IomCWotOJbpjkz7yGJ0eXOP/Rg+kKZq6QqKproEVue6bSuc3CCGTNMp1o0ITzJB3YPA==
   dependencies:
-    "@carbon/charts" "^0.56.0"
+    "@carbon/charts" "^0.57.0"
     "@carbon/telemetry" "0.0.0-alpha.6"
 
-"@carbon/charts@^0.56.0":
-  version "0.56.0"
-  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.56.0.tgz#722d58f0e2040bbaf6c05756967a947c9a87b335"
-  integrity sha512-FWnq8YGya2ZnzfkbPERav600S+567fz0dWbsIyyNbtt77YMJTo3E0UbyJIQVq7XcAIQsjP0Ga9o9rNLWyKq/3A==
+"@carbon/charts@^0.57.0":
+  version "0.57.0"
+  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.57.0.tgz#800fbe6d2d09f87da38ad407f4343fa36e1b4b2c"
+  integrity sha512-kduwghCKx89ZZxKQ95Y0ohfDGPyJhCW3m7AWY7C9hoSPRAdSqAwjjkbgmH0+3uns95hpRbb+PT5KROHuq7dAQQ==
   dependencies:
     "@carbon/colors" "10.29.0"
     "@carbon/telemetry" "0.1.0"
@@ -1295,10 +1295,10 @@ d3-zoom@3:
     d3-selection "2 - 3"
     d3-transition "2 - 3"
 
-d3@7.4.3:
-  version "7.4.3"
-  resolved "https://registry.yarnpkg.com/d3/-/d3-7.4.3.tgz#7bcd4f4d19e4359180a84d9cfd678761a269cbf7"
-  integrity sha512-x5cxHjtlXjtCzzaFv23mk6JKHKJzkYm/ePygQdeztcwYVedTHVQ7INyuAmRfjO7d4HTzQuofxzqva/d06Nh++Q==
+d3@7.4.4:
+  version "7.4.4"
+  resolved "https://registry.yarnpkg.com/d3/-/d3-7.4.4.tgz#bfbf87487c37d3196efebd5a63e3a0ed8299d8ff"
+  integrity sha512-97FE+MYdAlV3R9P74+R3Uar7wUKkIFu89UWMjEaDhiJ9VxKvqaMxauImy8PC2DdBkdM2BxJOIoLxPrcZUyrKoQ==
   dependencies:
     d3-array "3"
     d3-axis "3"

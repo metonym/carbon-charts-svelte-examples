@@ -5,11 +5,11 @@
     "build": "vite build"
   },
   "devDependencies": {
-    "@carbon/charts-svelte": "^0.56.0",
-    "@sveltejs/vite-plugin-svelte": "1.0.0-next.41",
-    "d3": "^7.4.3",
+    "@carbon/charts-svelte": "^0.57.0",
+    "@sveltejs/vite-plugin-svelte": "1.0.0-next.42",
+    "d3": "^7.4.4",
     "svelte": "^3.47.0",
     "svelte-hmr": "^0.14.11",
-    "vite": "^2.9.1"
+    "vite": "^2.9.6"
   }
 }
