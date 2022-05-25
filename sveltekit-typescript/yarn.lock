@@ -88,17 +88,17 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@sveltejs/adapter-node@1.0.0-next.73":
-  version "1.0.0-next.73"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-node/-/adapter-node-1.0.0-next.73.tgz#5de0e8c088b8d74a12bd19a8b6710cf5a54452ca"
-  integrity sha512-eidd7u1dPHIaBKMjRePrxazUt+Mm/JpnaiKLzZJBdamhBiiYIb+epkPLLqfG5Oo346/0HLKwFRAM/FXn3u3BHQ==
+"@sveltejs/adapter-node@1.0.0-next.76":
+  version "1.0.0-next.76"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-node/-/adapter-node-1.0.0-next.76.tgz#8430ce47f8f634a0d86df9e03f11d460eda34b88"
+  integrity sha512-SpzjYCLwCNMI7GscsaJMX5i9nOp+OoGzUCPSBs9gln9ffjO/ICLNpyea9Yfp0CkHRfufrMzMYa3wt2lqm4o9kA==
   dependencies:
     tiny-glob "^0.2.9"
 
-"@sveltejs/kit@1.0.0-next.338":
-  version "1.0.0-next.338"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.338.tgz#7e2e063fa0cff10f8c6a07e5f2e4a8192b348732"
-  integrity sha512-tqzSHB9ONjmUS8qsYUkypI1eg+FuyKVN5t0wEfIufv7X6ECK1xIRwU1A0igmNLPhqhTqAt3QNmFn2An0/8LbnQ==
+"@sveltejs/kit@1.0.0-next.344":
+  version "1.0.0-next.344"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.344.tgz#64936ac7c9616e3f2079bfd15a79819ba257da9d"
+  integrity sha512-IKFyB/ErD1E6/Gl/AKA2EvOPmu6jdHDIoDYStL0PP12ZASOKTPNfSgusPHMNOTV+qyJKwo8JdOTWwLuFmZLq8A==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^1.0.0-next.44"
     chokidar "^3.5.3"
@@ -1155,10 +1155,10 @@ typescript@*:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.6.3.tgz#eefeafa6afdd31d725584c67a0eaba80f6fc6c6c"
   integrity sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==
 
-typescript@^4.6.4:
-  version "4.6.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.6.4.tgz#caa78bbc3a59e6a5c510d35703f6a09877ce45e9"
-  integrity sha512-9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg==
+typescript@^4.7.2:
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.7.2.tgz#1f9aa2ceb9af87cca227813b4310fff0b51593c4"
+  integrity sha512-Mamb1iX2FDUpcTRzltPxgWMKy3fhg0TN378ylbktPGPK/99KbDtMQ4W1hwgsbPAsG3a0xKa1vmw4VKZQbkvz5A==
 
 vite@^2.9.9:
   version "2.9.9"
