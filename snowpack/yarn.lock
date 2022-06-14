@@ -74,7 +74,7 @@
   resolved "https://registry.yarnpkg.com/@carbon/motion/-/motion-11.2.0.tgz#cbdf8d1c5389a819318a014af5d4cb2f6d54c789"
   integrity sha512-q48CjWFLYlNeGDYTLpogHjJlUfYefvMKQfvk1TVnsgOCNdcbJO+Bt89M9fax/35Mq1DD6v2Mcw2e+sR0B7awJQ==
 
-"@carbon/styles@^1.4.0", "@carbon/styles@^1.5.0":
+"@carbon/styles@^1.4.0":
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/@carbon/styles/-/styles-1.5.0.tgz#d1ab2e5d441e2b99bbb8b36cffeb0ccb306df8ce"
   integrity sha512-o453junQSEMzyqssmcEIF7Pz0mPCqDcml8Ssg+ec66vshy72WaUdQ0D4Mn00LpXAhKg+maXxRg4lexUU/CympA==
