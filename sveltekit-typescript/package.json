@@ -2,21 +2,22 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "preview": "svelte-kit preview",
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
   },
   "devDependencies": {
-    "@carbon/charts-svelte": "^1.1.0",
-    "@sveltejs/adapter-node": "1.0.0-next.78",
-    "@sveltejs/kit": "1.0.0-next.350",
-    "d3": "^7.4.4",
-    "svelte": "^3.48.0",
-    "svelte-check": "^2.7.2",
+    "@carbon/charts-svelte": "^1.5.0",
+    "@sveltejs/adapter-node": "^1.0.0-next.78",
+    "@sveltejs/kit": "^1.0.0-next.350",
+    "d3": "^7.6.1",
+    "svelte": "^3.49.0",
+    "svelte-check": "^2.8.0",
     "svelte-preprocess": "^4.10.7",
     "tslib": "^2.4.0",
-    "typescript": "^4.7.3"
+    "typescript": "^4.7.4",
+    "vite": "^3.0.4"
   }
 }
