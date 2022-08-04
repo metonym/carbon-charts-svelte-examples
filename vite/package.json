@@ -2,7 +2,8 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "@carbon/charts-svelte": "^1.5.0",
