@@ -11,16 +11,12 @@ export default {
   input: "src/index.js",
   output: {
     sourcemap: !production,
-    format: "iife",
-    name: "app",
-    file: "public/build/bundle.js",
+    format: "es",
+    dir: "public/build",
   },
 
   // avoid "`this` has been rewritten to `undefined`" Rollup error
   context: "window",
-
-  // required if dynamically importing code
-  inlineDynamicImports: true,
 
   // ignore Rollup warnings for d3 circular dependencies
   onwarn: (warning, warn) => {
