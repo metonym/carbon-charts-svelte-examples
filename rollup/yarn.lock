@@ -23,18 +23,18 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@carbon/charts-svelte@^1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-1.5.0.tgz#ff7f2186f4c9c0d5b14155f965f0ae17ea74fd84"
-  integrity sha512-yfqL2e4HO+amZ7OzbouTSjnF6t3qPxjqH6A3QLijeAl5Vwr1l6biJBiSncg/sNU0xxlY8T06PE0zk4kuWK4JHg==
+"@carbon/charts-svelte@^1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-1.5.2.tgz#0c66f9c7344ff70b4ea6435166f87fc100996da2"
+  integrity sha512-QUgWvjtoRAyby5XEMmxWKWtyGb0NOs0Ap6tvcs3cqemO9PKdoPLDXiaLg/p8MdecI+AyWOctU4BZ6NKR1EpQRw==
   dependencies:
-    "@carbon/charts" "^1.5.0"
+    "@carbon/charts" "^1.5.2"
     "@carbon/telemetry" "0.1.0"
 
-"@carbon/charts@^1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-1.5.0.tgz#eff2d34500179cf31486d18d5f351f6bb56361ec"
-  integrity sha512-hPQHoxWrI1YDMV5VtQsIbSrn0k/Zfg316xnjOokMFatKVjf/D9ZVLpkjEJA1mguGXFh1vpafOfTPtuJLJBbQWg==
+"@carbon/charts@^1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-1.5.2.tgz#0687b30a370eb745298c4cf0ff5915809adcf468"
+  integrity sha512-G5sjqoRFJ0w8aaHkO7Tc4TfWl26vyF7Vb7kM7KN+DkmN2S0dltoFjxN1IvaHM88YMNNpt3+ofvxDXkeYCYbW7A==
   dependencies:
     "@carbon/styles" "^1.4.0"
     "@carbon/telemetry" "0.1.0"
@@ -119,10 +119,10 @@
   resolved "https://registry.yarnpkg.com/@ibm/plex/-/plex-6.0.0-next.6.tgz#5b4ab81a84ddb06651fdf684521927cdce135b79"
   integrity sha512-B3uGruTn2rS5gweynLmfSe7yCawSRsJguJJQHVQiqf4rh2RNgJFu8YLE2Zd/JHV0ZXoVMOslcXP2k3hMkxKEyA==
 
-"@rollup/plugin-commonjs@^22.0.1":
-  version "22.0.1"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-22.0.1.tgz#f7cb777d20de3eeeaf994f39080115c336bef810"
-  integrity sha512-dGfEZvdjDHObBiP5IvwTKMVeq/tBZGMBHZFMdIV1ClMM/YoWS34xrHFGfag9SN2ZtMgNZRFruqvxZQEa70O6nQ==
+"@rollup/plugin-commonjs@^22.0.2":
+  version "22.0.2"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-22.0.2.tgz#ee8ca8415cda30d383b4096aad5222435b4b69b6"
+  integrity sha512-//NdP6iIwPbMTcazYsiBMbJW7gfmpHom33u1beiIoHDEM0Q9clvtQB1T0efvMqHeKsGohiHo97BCPCkBXdscwg==
   dependencies:
     "@rollup/pluginutils" "^3.1.0"
     commondir "^1.0.1"
@@ -132,10 +132,10 @@
     magic-string "^0.25.7"
     resolve "^1.17.0"
 
-"@rollup/plugin-node-resolve@^13.2.1":
-  version "13.3.0"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-13.3.0.tgz#da1c5c5ce8316cef96a2f823d111c1e4e498801c"
-  integrity sha512-Lus8rbUo1eEcnS4yTFKLZrVumLPY+YayBdWXgFSHYhTT2iJbMhoaaBL3xl5NCdeRytErGr8tZ0L71BMRmnlwSw==
+"@rollup/plugin-node-resolve@^14.0.0":
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-14.0.0.tgz#373c1a00e7fb3e2a7d2ee109c5b03a5e608f3b8f"
+  integrity sha512-XkWfpgp/zGiFu8LS+JAiQeZN4oYYA4/ViFJiZhwQegTg5ZbzKTvM9YyKXVBNnmZ8Et76WnlVgwRUu1rhKF4ayw==
   dependencies:
     "@rollup/pluginutils" "^3.1.0"
     "@types/resolve" "1.17.1"
@@ -552,7 +552,7 @@ d3-zoom@3:
     d3-selection "2 - 3"
     d3-transition "2 - 3"
 
-d3@7.6.1:
+d3@^7.6.1:
   version "7.6.1"
   resolved "https://registry.yarnpkg.com/d3/-/d3-7.6.1.tgz#b21af9563485ed472802f8c611cc43be6c37c40c"
   integrity sha512-txMTdIHFbcpLx+8a0IFhZsbp+PfBBPt8yfbmukZTQFroKuFqIwqswF0qE5JXWefylaAVpSXFoKm3yP+jpNLFLw==
@@ -880,10 +880,10 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@^2.77.2:
-  version "2.77.2"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.77.2.tgz#6b6075c55f9cc2040a5912e6e062151e42e2c4e3"
-  integrity sha512-m/4YzYgLcpMQbxX3NmAqDvwLATZzxt8bIegO78FZLl+lAgKJBd1DRAOeEiZcKOIOPjxE6ewHWHNgGEalFXuz1g==
+rollup@^2.79.0:
+  version "2.79.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.79.0.tgz#9177992c9f09eb58c5e56cbfa641607a12b57ce2"
+  integrity sha512-x4KsrCgwQ7ZJPcFA/SUu6QVcYlO7uRLfLAy0DSA4NS2eG8japdbpM50ToH7z4iObodRYOJ0soneF0iaQRJ6zhA==
   optionalDependencies:
     fsevents "~2.3.2"
 
@@ -960,10 +960,10 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-svelte@^3.49.0:
-  version "3.49.0"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.49.0.tgz#5baee3c672306de1070c3b7888fc2204e36a4029"
-  integrity sha512-+lmjic1pApJWDfPCpUUTc1m8azDqYCG1JN9YEngrx/hUyIcFJo6VZhj0A1Ai0wqoHcEIuQy+e9tk+4uDgdtsFA==
+svelte@^3.50.0:
+  version "3.50.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.50.0.tgz#d11a7a6bd1e084ec051d55104a9af8bccf54461f"
+  integrity sha512-zXeOUDS7+85i+RxLN+0iB6PMbGH7OhEgjETcD1fD8ZrhuhNFxYxYEHU41xuhkHIulJavcu3PKbPyuCrBxdxskQ==
 
 terser@^5.0.0:
   version "5.13.1"

@@ -5,7 +5,7 @@
     "build": "rm -rf public && NODE_ENV=production webpack"
   },
   "devDependencies": {
-    "@carbon/charts-svelte": "^1.5.0",
+    "@carbon/charts-svelte": "^1.5.2",
     "css-loader": "^6.7.1",
     "d3": "7.6.1",
     "html-webpack-plugin": "^5.5.0",

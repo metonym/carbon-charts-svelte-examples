@@ -1,9 +1,9 @@
 <script lang="ts">
   import "@carbon/styles/css/styles.css";
   import "@carbon/charts/styles.css";
-  import Basic from "./Basic.svelte";
-  import DynamicImport from "./DynamicImport.svelte";
-  import Events from "./Events.svelte";
+  import Basic from "$lib/Basic.svelte";
+  import DynamicImport from "$lib/DynamicImport.svelte";
+  import Events from "$lib/Events.svelte";
 </script>
 
 <Basic />
