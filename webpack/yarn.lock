@@ -2,18 +2,18 @@
 # yarn lockfile v1
 
 
-"@carbon/charts-svelte@^1.5.7":
-  version "1.5.7"
-  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-1.5.7.tgz#d41ac1ab847654e4bde9a718d318de4e4d44b98f"
-  integrity sha512-2nsnpwl58vtvtsNNW9hurYVMwwjVqlnXMd5ZDY95qbVi52cSkVCEqP6f0GARZMvJRBTZa3JaJ6FPR0BGpYmTVw==
+"@carbon/charts-svelte@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-1.6.0.tgz#81c12ba663a46eb39ebf88cb3b7f9b4f62405a85"
+  integrity sha512-mffcdIGxzX/ihaWyEy5FHe2yTSX+2c/2oil0folhxyfFFvGdJR1WxJgoyxkL4fsJIB3VCwYvcowcdJNolP9Q8g==
   dependencies:
-    "@carbon/charts" "^1.5.7"
+    "@carbon/charts" "^1.6.0"
     "@carbon/telemetry" "0.1.0"
 
-"@carbon/charts@^1.5.7":
-  version "1.5.7"
-  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-1.5.7.tgz#4d418f13f7e5e281a0f57612a1ae2c5364ac6feb"
-  integrity sha512-gSV5PyJfuUL8KM04CxCCZMw8Fv6Kzl3i3sFCkqPMSDgSzpabnCgQtY7nWF+9/inGa3Z7lBQYmx9c76nrAVm6nA==
+"@carbon/charts@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-1.6.0.tgz#60295fb4a3e5bf32b5b1011c8bfec869755e4771"
+  integrity sha512-amk5cmyk6f0W10bXjfRjtPjKgr+9M//vCckiDXmmgq9j7fJJN++Y1F9RHvLLhE/ozB4ETK87mBMxYiYfZ28VOw==
   dependencies:
     "@carbon/styles" "^1.4.0"
     "@carbon/telemetry" "0.1.0"
