@@ -2,18 +2,18 @@
 # yarn lockfile v1
 
 
-"@carbon/charts-svelte@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-1.6.0.tgz#81c12ba663a46eb39ebf88cb3b7f9b4f62405a85"
-  integrity sha512-mffcdIGxzX/ihaWyEy5FHe2yTSX+2c/2oil0folhxyfFFvGdJR1WxJgoyxkL4fsJIB3VCwYvcowcdJNolP9Q8g==
+"@carbon/charts-svelte@^1.6.1":
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-1.6.1.tgz#c6a65208c4a25f4f4e86116490a7fa8c2033f730"
+  integrity sha512-zeu9aU1LmAyCpS+RhI7iwwta0pTzAbtX4tW3LGwEeo85LMZ07ExybmFavWtqhfvyUDhJE7vgeRjHNaH1KxE69Q==
   dependencies:
-    "@carbon/charts" "^1.6.0"
+    "@carbon/charts" "^1.6.1"
     "@carbon/telemetry" "0.1.0"
 
-"@carbon/charts@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-1.6.0.tgz#60295fb4a3e5bf32b5b1011c8bfec869755e4771"
-  integrity sha512-amk5cmyk6f0W10bXjfRjtPjKgr+9M//vCckiDXmmgq9j7fJJN++Y1F9RHvLLhE/ozB4ETK87mBMxYiYfZ28VOw==
+"@carbon/charts@^1.6.1":
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-1.6.1.tgz#8efd8e298eabb52be73e6cd6b3252629d2643bd8"
+  integrity sha512-6Oii4QGRaIFOAztJDY3MJ7cViiu2EUOmJHYDc/KUTs9NQRSfbBkKD5xo+pHHWyO0ZXy6pn/60RVBbdjFcA2t7Q==
   dependencies:
     "@carbon/styles" "^1.4.0"
     "@carbon/telemetry" "0.1.0"
@@ -2665,10 +2665,10 @@ svelte-loader@^3.1.3:
     svelte-dev-helper "^1.1.9"
     svelte-hmr "^0.14.2"
 
-svelte@^3.50.1:
-  version "3.50.1"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.50.1.tgz#b35fbc5e79ddd71e8bb27c3149ee6ff903841239"
-  integrity sha512-bS4odcsdj5D5jEg6riZuMg5NKelzPtmsCbD9RG+8umU03TeNkdWnP6pqbCm0s8UQNBkqk29w/Bdubn3C+HWSwA==
+svelte@^3.52.0:
+  version "3.52.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.52.0.tgz#08259eff20904c63882b66a5d409a55e8c6743b8"
+  integrity sha512-FxcnEUOAVfr10vDU5dVgJN19IvqeHQCS1zfe8vayTfis9A2t5Fhx+JDe5uv/C3j//bB1umpLJ6quhgs9xyUbCQ==
 
 tapable@^2.0.0, tapable@^2.1.1, tapable@^2.2.0:
   version "2.2.1"
