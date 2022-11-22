@@ -4,6 +4,6 @@ import { sveltekit } from "@sveltejs/kit/vite";
 export default {
   plugins: [sveltekit()],
   ssr: {
-    noExternal: ["@carbon/charts", "carbon-components"],
+    noExternal: process.env.NODE_ENV === "production" ? ["@carbon/charts", "carbon-components"] : [],
   },
 };
