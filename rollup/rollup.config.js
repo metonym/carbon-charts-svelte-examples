@@ -11,7 +11,6 @@ export default {
   input: "src/index.js",
   output: {
     sourcemap: !production,
-    format: "es",
     dir: "public/build",
   },
 
