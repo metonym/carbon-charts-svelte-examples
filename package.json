@@ -4,9 +4,9 @@
     "format": "prettier --ignore-path .gitignore --write ."
   },
   "devDependencies": {
-    "prettier": "^2.8.1",
-    "prettier-plugin-svelte": "^2.9.0",
-    "svelte": "^3.55.0"
+    "prettier": "^3.0.0",
+    "prettier-plugin-svelte": "^2.10.1",
+    "svelte": "^4.0.5"
   },
   "prettier": {
     "printWidth": 120
