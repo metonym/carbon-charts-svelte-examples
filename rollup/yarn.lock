@@ -46,7 +46,7 @@
     "@carbon/charts" "1.11.10"
     "@carbon/telemetry" "~0.1.0"
 
-"@carbon/charts@1.11.10", "@carbon/charts@^1.11.10":
+"@carbon/charts@1.11.10":
   version "1.11.10"
   resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-1.11.10.tgz#17821095cf5a6dcebb61c41341e08707582e315a"
   integrity sha512-J04xco9kaxVT1Cqvq7AuYuOw/w9pDdiNpg6sJ7hsE/I5NCRvdkLJ95Ahr+2veUaPSaZAX43tHSAgOk1OscuN3A==

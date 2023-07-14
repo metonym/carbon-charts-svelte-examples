@@ -7,7 +7,6 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@carbon/charts": "^1.11.10",
     "@carbon/charts-svelte": "^1.11.10",
     "@carbon/styles": "^1.33.1",
     "@sveltejs/vite-plugin-svelte": "^2.4.2",
