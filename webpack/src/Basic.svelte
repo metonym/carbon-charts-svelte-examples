@@ -1,5 +1,5 @@
 <script>
-  import { BarChartSimple } from "@carbon/charts-svelte";
+  import { BarChartSimple, ScaleTypes } from "@carbon/charts-svelte";
 </script>
 
 <BarChartSimple
@@ -15,7 +15,7 @@
     height: "400px",
     axes: {
       left: { mapsTo: "value" },
-      bottom: { mapsTo: "group", scaleType: "labels" },
+      bottom: { mapsTo: "group", scaleType: ScaleTypes.LABELS },
     },
   }}
 />

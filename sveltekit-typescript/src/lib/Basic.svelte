@@ -1,13 +1,12 @@
 <script lang="ts">
-  import { BarChartSimple } from "@carbon/charts-svelte";
-  import type { BarChartOptions, ScaleTypes } from "@carbon/charts/interfaces";
+  import { BarChartSimple, ScaleTypes, type BarChartOptions } from "@carbon/charts-svelte";
 
   const options: BarChartOptions = {
     title: "Simple bar (discrete)",
     height: "400px",
     axes: {
       left: { mapsTo: "value" },
-      bottom: { mapsTo: "group", scaleType: "labels" as ScaleTypes.LABELS },
+      bottom: { mapsTo: "group", scaleType: ScaleTypes.LABELS },
     },
   };
 </script>
