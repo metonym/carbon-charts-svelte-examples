@@ -3,5 +3,5 @@ node_modules
 build
 dist
 public/build
-__sapper__
 .svelte-kit
+webpack/public
