@@ -17,18 +17,18 @@
   dependencies:
     regenerator-runtime "^0.13.11"
 
-"@carbon/charts-svelte@^1.13.4":
-  version "1.13.4"
-  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-1.13.4.tgz#6b22bd6ac304f8448322d5970e14387827688258"
-  integrity sha512-NS1pEFRiGEhyIEzJWf3bNYgfeGawBdB531rG3BwIbwkOr77WFsvRoKNciXqe+Jq0G9D47gmnVBurNCA3WCydEQ==
+"@carbon/charts-svelte@^1.13.6":
+  version "1.13.6"
+  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-1.13.6.tgz#56a3261cec4922eb6f746537511c27abd96e3213"
+  integrity sha512-xudNm2FjBi55UoPa0onEx6SOphRBS8QVMT/3Au8OhwOufs2KKM/o5HcWJAY+uBq+sWM5Ccuvh+Il3gO7OXjX4w==
   dependencies:
-    "@carbon/charts" "1.13.4"
+    "@carbon/charts" "1.13.6"
     "@carbon/telemetry" "~0.1.0"
 
-"@carbon/charts@1.13.4":
-  version "1.13.4"
-  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-1.13.4.tgz#d0f78fdde2a53e030b2ad5626edcbc94bcd0f0a1"
-  integrity sha512-Wb2sKxMZfoI7sdZNY01rgUEVor1ep16tO88ua0+0VtMdvc73+rWafVuWF8d4haz5AlHMWBAt13SPo/Hz0+kvEg==
+"@carbon/charts@1.13.6":
+  version "1.13.6"
+  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-1.13.6.tgz#a2471d36aa09ff6009d4ff63986e331e6a76f506"
+  integrity sha512-Y4VHmMsOODzZ7MUss9AC/Byp3fqO/WKKSQb0x7cwNKOvJaKxSw1wn5n6Y6p2Rw+iW05ik4ptFKZtGvgZA4yHYg==
   dependencies:
     "@carbon/colors" "^11.19.0"
     "@carbon/telemetry" "~0.1.0"
@@ -1590,10 +1590,10 @@ undici@~5.25.0:
   dependencies:
     "@fastify/busboy" "^2.0.0"
 
-vite@^4.4.9:
-  version "4.4.9"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-4.4.9.tgz#1402423f1a2f8d66fd8d15e351127c7236d29d3d"
-  integrity sha512-2mbUn2LlUmNASWwSCNSJ/EG2HuSRTnVNaydp6vMCm5VIqJsjMfbIWtbH2kDuwUVW5mMUKKZvGPX/rqeqVvv1XA==
+vite@^4.4.11:
+  version "4.4.11"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-4.4.11.tgz#babdb055b08c69cfc4c468072a2e6c9ca62102b0"
+  integrity sha512-ksNZJlkcU9b0lBwAGZGGaZHCMqHsc8OpgtoYhsQ4/I2v5cnpmmmqe5pM4nv/4Hn6G/2GhTdj0DhZh2e+Er1q5A==
   dependencies:
     esbuild "^0.18.10"
     postcss "^8.4.27"
