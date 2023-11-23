@@ -1,10 +1,9 @@
 <script lang="ts">
-  import { onMount } from "svelte";
+  import { onMount, type ComponentProps } from "svelte";
   import { BarChartSimple } from "@carbon/charts-svelte";
-  import type { SimpleBarChart } from "@carbon/charts";
-  import type { BarChartOptions, ScaleTypes } from "@carbon/charts/interfaces";
+  import type { BarChartOptions, ScaleTypes } from "@carbon/charts-svelte";
 
-  let chart: null | SimpleBarChart = null;
+  let chart: ComponentProps<BarChartSimple>["chart"] = null;
 
   const options: BarChartOptions = {
     title: "Simple bar (discrete)",
