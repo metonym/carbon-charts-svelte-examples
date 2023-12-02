@@ -5,8 +5,8 @@
   },
   "devDependencies": {
     "prettier": "^3.1.0",
-    "prettier-plugin-svelte": "^3.1.0",
-    "svelte": "^4.2.5"
+    "prettier-plugin-svelte": "^3.1.2",
+    "svelte": "^4.2.8"
   },
   "prettier": {
     "printWidth": 120

@@ -75,17 +75,17 @@
   resolved "https://registry.yarnpkg.com/@carbon/motion/-/motion-11.16.0.tgz#fdb2c83fbbd0b4bebe748f89ef8f828fe3e942ad"
   integrity sha512-gr2oijosvrbV8I8dT+s+KTAzHswQ7GE1ffgKxMWWkdg4b91hlJ0qJe1BlG7ZnaHCRpeHKS12QQgnS/dy4yx92Q==
 
-"@carbon/styles@^1.42.1":
-  version "1.42.1"
-  resolved "https://registry.yarnpkg.com/@carbon/styles/-/styles-1.42.1.tgz#440f2090c37d424459d3b20baed52dd0fafd2ccd"
-  integrity sha512-vBb+hnazNYciv4no+TQwvaiM9GV/0NYsP3Jm92mL34lTj3V8i0Kf/ZQb+nrTSPodtvoNOKE9DqiYCg0jxsKkyQ==
+"@carbon/styles@^1.44.0":
+  version "1.44.0"
+  resolved "https://registry.yarnpkg.com/@carbon/styles/-/styles-1.44.0.tgz#3f3a68cc7aae8a60cae5b20943a6decfc8c09f5f"
+  integrity sha512-5geQru8tuQvZwo2x4oUQ6F6zYhrxAb/dLYjNCKrs6bM1Hf1Ha2mAiu4y/NXt9T0WcCQJs4CX8XEEOEn6iAyJww==
   dependencies:
     "@carbon/colors" "^11.20.0"
     "@carbon/feature-flags" "^0.16.0"
     "@carbon/grid" "^11.21.0"
     "@carbon/layout" "^11.20.0"
     "@carbon/motion" "^11.16.0"
-    "@carbon/themes" "^11.27.1"
+    "@carbon/themes" "^11.28.0"
     "@carbon/type" "^11.25.0"
     "@ibm/plex" "6.0.0-next.6"
 
@@ -94,10 +94,10 @@
   resolved "https://registry.yarnpkg.com/@carbon/telemetry/-/telemetry-0.1.0.tgz#57b331cd5a855b4abbf55457456da8211624d879"
   integrity sha512-kNWt0bkgPwGW0i5h7HFuljbKRXPvIhsKbB+1tEURAYLXoJg9iJLF1eGvWN5iVoFCS2zje4GR3OGOsvvKVe7Hlg==
 
-"@carbon/themes@^11.27.1":
-  version "11.27.1"
-  resolved "https://registry.yarnpkg.com/@carbon/themes/-/themes-11.27.1.tgz#3ddd917cb1f200707edd18f675d7fb96ac34c3df"
-  integrity sha512-yWSsQ59chdU6AwBEWTT4sNOUI1D2hyybaB6xuYoQHjCZ3wG7WBNbIGUD/QN7HxlCZVftRpTB7WwszY0g1IGS+A==
+"@carbon/themes@^11.28.0":
+  version "11.28.0"
+  resolved "https://registry.yarnpkg.com/@carbon/themes/-/themes-11.28.0.tgz#415caa175dbb77ef3ca5ee8725c600e79a6beaa7"
+  integrity sha512-LvUFGXjsJ6csTrSjSOhkmvKHA0wcJOGchPaBrnWZB5J0UVCW+66P7lLuQBkTab7qgwRp4VgOSOkGdPPFQuchWQ==
   dependencies:
     "@carbon/colors" "^11.20.0"
     "@carbon/layout" "^11.20.0"
@@ -2806,10 +2806,10 @@ svelte-loader@^3.1.9:
     svelte-dev-helper "^1.1.9"
     svelte-hmr "^0.14.2"
 
-svelte@^4.2.5:
-  version "4.2.5"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-4.2.5.tgz#f50ae5aa3d60dab3c89ddd8c5ee0c2985eba3f9c"
-  integrity sha512-P9YPKsGkNdw4OJbtpd1uzimQHPj7Ai2sPcOHmmD6VgkFhFDmcYevQi7vE4cQ1g8/Vs64aL2TwMoCNFAzv7TPaQ==
+svelte@^4.2.8:
+  version "4.2.8"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-4.2.8.tgz#a279d8b6646131ffb11bc692840f8839b8ae4ed1"
+  integrity sha512-hU6dh1MPl8gh6klQZwK/n73GiAHiR95IkFsesLPbMeEZi36ydaXL/ZAb4g9sayT0MXzpxyZjR28yderJHxcmYA==
   dependencies:
     "@ampproject/remapping" "^2.2.1"
     "@jridgewell/sourcemap-codec" "^1.4.15"
