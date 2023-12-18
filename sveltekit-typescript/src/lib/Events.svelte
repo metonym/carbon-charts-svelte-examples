@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount, type ComponentProps } from "svelte";
   import { BarChartSimple } from "@carbon/charts-svelte";
-  import type { BarChartOptions, ScaleTypes } from "@carbon/charts-svelte";
+  import { type BarChartOptions, ScaleTypes } from "@carbon/charts-svelte";
 
   let chart: ComponentProps<BarChartSimple>["chart"] = null;
 
@@ -10,7 +10,7 @@
     height: "400px",
     axes: {
       left: { mapsTo: "value" },
-      bottom: { mapsTo: "group", scaleType: "labels" as ScaleTypes.LABELS },
+      bottom: { mapsTo: "group", scaleType: ScaleTypes.LABELS },
     },
   };
 

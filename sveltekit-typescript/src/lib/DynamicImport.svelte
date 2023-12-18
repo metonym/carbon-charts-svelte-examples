@@ -1,15 +1,16 @@
 <script lang="ts">
   import { onMount, type ComponentType } from "svelte";
-  import type { BarChartOptions, ScaleTypes } from "@carbon/charts-svelte";
+  import { ScaleTypes } from "@carbon/charts-svelte";
+  import { type BarChartSimple, type BarChartOptions } from "@carbon/charts-svelte";
 
-  let chart: ComponentType<import("@carbon/charts-svelte").BarChartSimple>;
+  let chart: ComponentType<BarChartSimple>;
 
   const options: BarChartOptions = {
     title: "Simple bar (discrete)",
     height: "400px",
     axes: {
       left: { mapsTo: "value" },
-      bottom: { mapsTo: "group", scaleType: "labels" as ScaleTypes.LABELS },
+      bottom: { mapsTo: "group", scaleType: ScaleTypes.LABELS },
     },
   };
 
