@@ -17,18 +17,18 @@
   dependencies:
     regenerator-runtime "^0.13.11"
 
-"@carbon/charts-svelte@^1.13.8":
-  version "1.13.8"
-  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-1.13.8.tgz#1a5af8f283fd88e2707d56f0ac07564d51f8511f"
-  integrity sha512-hZPcgU7uacQRbeLK3WMimcYjim3ziElimLEkz4jf+Cff4G4XRmGblGPqJgATExOa/PxzfSBbK4TYLrSZevCevw==
+"@carbon/charts-svelte@^1.13.12":
+  version "1.13.12"
+  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-1.13.12.tgz#01e0dc22c0d017a24eaab3df1844b4acf574abd3"
+  integrity sha512-FuMGkn9WWtjgbudEjwgL3gS8w/hx+MT7dpE0wXRCRGm7xD0+S7F8ExMUlgf9t7zFAu0pICgBHuApDrbvG5V3AQ==
   dependencies:
-    "@carbon/charts" "1.13.8"
+    "@carbon/charts" "1.13.12"
     "@carbon/telemetry" "~0.1.0"
 
-"@carbon/charts@1.13.8":
-  version "1.13.8"
-  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-1.13.8.tgz#3a219521fefa5dd77fab2d22ee8317b923ee1c31"
-  integrity sha512-MRlwycACBJq/diNqAM8PFYZQ5anGN394LDe5oQBdatmBO08n68psWRyax2tzL1Z1tVTZOYJJZAiVj7KhxCagVg==
+"@carbon/charts@1.13.12":
+  version "1.13.12"
+  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-1.13.12.tgz#288961c6b791ee0fdeebfed42f009b5913246dd5"
+  integrity sha512-boFnGsOFesbJ4tMDXytORiYnc8m9lVb0zApDBF7CKhMcXLYr416PBBa7+iFLVXwIluCztwQt7sym42U89v3Dxg==
   dependencies:
     "@carbon/colors" "^11.20.1"
     "@carbon/telemetry" "~0.1.0"
@@ -487,10 +487,10 @@
     "@rollup/plugin-node-resolve" "^15.2.3"
     rollup "^4.8.0"
 
-"@sveltejs/kit@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-2.0.1.tgz#78d793ab0b00fec9e363d96691809e95f6f015a5"
-  integrity sha512-Pu/YJ5pPy8UgC1LlrlGpL7UK25CKganlLqqO7oYdFGt7eSa+Y2ouJomwiGHatV3uHvVOPGEkcb4O4QtyZQDuGw==
+"@sveltejs/kit@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-2.0.3.tgz#0f4573d1bf7e196a03883d5e31800ebf235ceb13"
+  integrity sha512-TjqRBC7I3qnGeRfmxAkkwbQVnto9x+DsSDTtHC4qC+MgHPImIVzSgUiw//tZ3/uB5/MXhGNLhi5mztWZVM0sjw==
   dependencies:
     "@types/cookie" "^0.6.0"
     cookie "^0.6.0"

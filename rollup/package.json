@@ -6,7 +6,7 @@
     "build": "rollup -c"
   },
   "devDependencies": {
-    "@carbon/charts-svelte": "^1.13.8",
+    "@carbon/charts-svelte": "^1.13.12",
     "@carbon/styles": "^1.46.0",
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",

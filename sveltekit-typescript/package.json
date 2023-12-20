@@ -9,10 +9,10 @@
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
   },
   "devDependencies": {
-    "@carbon/charts-svelte": "^1.13.8",
+    "@carbon/charts-svelte": "^1.13.12",
     "@carbon/styles": "^1.46.0",
     "@sveltejs/adapter-node": "^2.0.0",
-    "@sveltejs/kit": "^2.0.1",
+    "@sveltejs/kit": "^2.0.3",
     "@sveltejs/vite-plugin-svelte": "^3.0.1",
     "d3": "^7.8.5",
     "svelte": "^4.2.8",
