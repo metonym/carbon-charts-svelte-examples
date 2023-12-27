@@ -10,25 +10,18 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@babel/runtime@^7.21.0":
-  version "7.22.6"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.22.6.tgz#57d64b9ae3cff1d67eb067ae117dac087f5bd438"
-  integrity sha512-wDb5pWm4WDdF6LFUde3Jl8WzPA+3ZbxYqkC6xAXuD3irdEHN1k0NfTRrJD8ZD378SJ61miMLCqIOXYhd8x+AJQ==
+"@carbon/charts-svelte@^1.13.15":
+  version "1.13.15"
+  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-1.13.15.tgz#79d1d8b5627045b71d5e567f18740a334f5377cc"
+  integrity sha512-qiQuW9wi8+1RVV3Gm3nyAtNeoW5FlodORrtsnAlAFgBEJBtpUGd8fNRLCf3tJiflP1wWU6N3hiiwbJhV9VAURw==
   dependencies:
-    regenerator-runtime "^0.13.11"
-
-"@carbon/charts-svelte@^1.13.12":
-  version "1.13.12"
-  resolved "https://registry.yarnpkg.com/@carbon/charts-svelte/-/charts-svelte-1.13.12.tgz#01e0dc22c0d017a24eaab3df1844b4acf574abd3"
-  integrity sha512-FuMGkn9WWtjgbudEjwgL3gS8w/hx+MT7dpE0wXRCRGm7xD0+S7F8ExMUlgf9t7zFAu0pICgBHuApDrbvG5V3AQ==
-  dependencies:
-    "@carbon/charts" "1.13.12"
+    "@carbon/charts" "1.13.15"
     "@carbon/telemetry" "~0.1.0"
 
-"@carbon/charts@1.13.12":
-  version "1.13.12"
-  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-1.13.12.tgz#288961c6b791ee0fdeebfed42f009b5913246dd5"
-  integrity sha512-boFnGsOFesbJ4tMDXytORiYnc8m9lVb0zApDBF7CKhMcXLYr416PBBa7+iFLVXwIluCztwQt7sym42U89v3Dxg==
+"@carbon/charts@1.13.15":
+  version "1.13.15"
+  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-1.13.15.tgz#464f2c8300a1601793d62df8048ca08edf33653b"
+  integrity sha512-pqFUTHi6ktrPuuy1UhXgIks7y6iCvApacV6X/ll/8hSVnKOzFBiBeAHgH7BBc/DxEWcKVR39iTothCgdKzsMHw==
   dependencies:
     "@carbon/colors" "^11.20.1"
     "@carbon/telemetry" "~0.1.0"
@@ -37,7 +30,7 @@
     d3 "^7.8.5"
     d3-cloud "^1.2.7"
     d3-sankey "^0.12.3"
-    date-fns "^2.30.0"
+    date-fns "^3.0.6"
     html-to-image "^1.11.11"
     lodash-es "^4.17.21"
     topojson-client "^3.1.0"
@@ -723,12 +716,10 @@ d3@^7.8.5:
     d3-transition "3"
     d3-zoom "3"
 
-date-fns@^2.30.0:
-  version "2.30.0"
-  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.30.0.tgz#f367e644839ff57894ec6ac480de40cae4b0f4d0"
-  integrity sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==
-  dependencies:
-    "@babel/runtime" "^7.21.0"
+date-fns@^3.0.6:
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-3.0.6.tgz#fe3aeb7592d359f075ffc41cb16139828810ca83"
+  integrity sha512-W+G99rycpKMMF2/YD064b2lE7jJGUe+EjOES7Q8BIGY8sbNdbgcs9XFTZwvzc9Jx1f3k7LB7gZaZa7f8Agzljg==
 
 debug@^4.3.4:
   version "4.3.4"
@@ -914,11 +905,6 @@ postcss@^8.4.32:
     nanoid "^3.3.7"
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
-
-regenerator-runtime@^0.13.11:
-  version "0.13.11"
-  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz#f6dca3e7ceec20590d07ada785636a90cdca17f9"
-  integrity sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==
 
 robust-predicates@^3.0.0:
   version "3.0.1"
