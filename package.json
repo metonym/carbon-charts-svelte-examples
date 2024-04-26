@@ -1,12 +1,12 @@
 {
   "private": true,
   "scripts": {
-    "format": "prettier --ignore-path .gitignore --write ."
+    "format": "prettier --ignore-path .gitignore --write . --cache"
   },
   "devDependencies": {
-    "prettier": "^3.2.5",
-    "prettier-plugin-svelte": "^3.2.2",
-    "svelte": "^4.2.12"
+    "prettier": "latest",
+    "prettier-plugin-svelte": "latest",
+    "svelte": "latest"
   },
   "prettier": {
     "printWidth": 120
