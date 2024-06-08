@@ -25,8 +25,8 @@ npx degit metonym/carbon-charts-svelte-examples/webpack my-app
 
 ## Running locally
 
-To run the examples locally, clone the repository and navigate to the example folder and run `yarn install` to install the dependencies.
+To run the examples locally, clone the repository and navigate to the example folder and run `bun install` to install the dependencies.
 
-Run `yarn dev` for local development.
+Run `bun run dev` for local development.
 
-Run `yarn build` to build the application for production.
+Run `bun run build` to build the application for production.
