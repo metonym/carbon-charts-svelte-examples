@@ -1,9 +1,11 @@
 {
   "private": true,
   "scripts": {
-    "format": "prettier --ignore-path .gitignore --write . --cache"
+    "format": "prettier --ignore-path .gitignore --write . --cache",
+    "upgrade-examples": "bun upgrade-examples.ts"
   },
   "devDependencies": {
+    "@types/bun": "latest",
     "prettier": "latest",
     "prettier-plugin-svelte": "latest",
     "svelte": "latest"
