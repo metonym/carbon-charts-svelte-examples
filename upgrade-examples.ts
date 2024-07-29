@@ -7,6 +7,6 @@ const dirs = new Glob("*").scanSync({
 
 for await (const dir of dirs) {
   if (fs.lstatSync(dir).isDirectory() && dir !== "node_modules") {
-    await $`cd ${dir} && bun install`;
+    await $`cd ${dir} && bun update`;
   }
 }
