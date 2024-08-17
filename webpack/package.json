@@ -6,9 +6,9 @@
   },
   "devDependencies": {
     "@carbon/charts-svelte": "^1.19.2",
-    "@carbon/styles": "^1.62.0",
+    "@carbon/styles": "^1.63.0",
     "css-loader": "^7.1.2",
-    "d3": "7.9.0",
+    "d3": "^7.9.0",
     "html-webpack-plugin": "^5.6.0",
     "mini-css-extract-plugin": "^2.9.0",
     "svelte": "^4.2.18",
