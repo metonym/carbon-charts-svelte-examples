@@ -1,12 +1,5 @@
-import { $, Glob } from "bun";
-import fs from "node:fs";
+import { $ } from "bun";
 
-const dirs = new Glob("*").scanSync({
-  onlyFiles: false,
-});
-
-for await (const dir of dirs) {
-  if (fs.lstatSync(dir).isDirectory() && dir !== "node_modules") {
-    await $`cd ${dir} && bun update`;
-  }
+for await (const dir of $`find . -maxdepth 1 -type d -exec test -f {}/package.json \; -print`.lines()) {
+  await $`cd ${dir} && bun update`;
 }
