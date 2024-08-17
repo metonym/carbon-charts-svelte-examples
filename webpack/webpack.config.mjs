@@ -1,11 +1,15 @@
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const path = require("path");
+// @ts-check
+import HtmlWebpackPlugin from "html-webpack-plugin";
+import MiniCssExtractPlugin from "mini-css-extract-plugin";
+import path from "node:path";
 
-const NODE_ENV = process.env.NODE_ENV || "development";
+/** @type {"development" | "production"} */
+const NODE_ENV =
+  process.env.NODE_ENV === "production" ? "production" : "development";
 const PROD = NODE_ENV === "production";
 
-module.exports = {
+/** @type {import("webpack").Configuration} */
+export default {
   entry: { "build/bundle": ["./src/index.js"] },
   resolve: {
     alias: {
@@ -17,7 +21,7 @@ module.exports = {
   },
   output: {
     publicPath: "/",
-    path: path.join(__dirname, "/public"),
+    path: path.resolve("./public"),
     filename: PROD ? "[name].[contenthash].js" : "[name].js",
     chunkFilename: "[name].[id].js",
     clean: true,
