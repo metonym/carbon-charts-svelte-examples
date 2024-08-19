@@ -4,8 +4,7 @@ import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import path from "node:path";
 
 /** @type {"development" | "production"} */
-const NODE_ENV =
-  process.env.NODE_ENV === "production" ? "production" : "development";
+const NODE_ENV = process.env.NODE_ENV === "production" ? "production" : "development";
 const PROD = NODE_ENV === "production";
 
 /** @type {import("webpack").Configuration} */

@@ -13,7 +13,7 @@
     "@carbon/charts-svelte": "^1.19.2",
     "@carbon/styles": "^1.63.0",
     "@sveltejs/adapter-node": "^5.2.2",
-    "@sveltejs/kit": "^2.5.22",
+    "@sveltejs/kit": "^2.5.24",
     "@sveltejs/vite-plugin-svelte": "^3.1.1",
     "d3": "^7.9.0",
     "svelte": "^4.2.18",
