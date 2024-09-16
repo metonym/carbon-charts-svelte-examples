@@ -8,13 +8,13 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@carbon/charts-svelte": "^1.21.3",
-    "@carbon/styles": "^1.64.0",
+    "@carbon/charts-svelte": "^1.22.0",
+    "@carbon/styles": "^1.65.0",
     "@sveltejs/adapter-node": "^5.2.2",
-    "@sveltejs/kit": "^2.5.26",
+    "@sveltejs/kit": "^2.5.27",
     "@sveltejs/vite-plugin-svelte": "^3.1.2",
     "d3": "^7.9.0",
     "svelte": "^4.2.19",
-    "vite": "^5.4.4"
+    "vite": "^5.4.5"
   }
 }
