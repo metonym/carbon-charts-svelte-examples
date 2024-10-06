@@ -8,10 +8,10 @@
   },
   "devDependencies": {
     "@carbon/charts-svelte": "^1.22.0",
-    "@carbon/styles": "^1.65.0",
+    "@carbon/styles": "^1.66.1",
     "@sveltejs/vite-plugin-svelte": "^3.1.2",
     "d3": "^7.9.0",
     "svelte": "^4.2.19",
-    "vite": "^5.4.5"
+    "vite": "^5.4.8"
   }
 }
