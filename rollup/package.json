@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "@carbon/charts-svelte": "^1.22.0",
-    "@carbon/styles": "^1.66.1",
+    "@carbon/styles": "^1.68.0",
     "@rollup/plugin-commonjs": "^25.0.8",
     "@rollup/plugin-node-resolve": "^15.3.0",
     "@rollup/plugin-replace": "^5.0.7",
