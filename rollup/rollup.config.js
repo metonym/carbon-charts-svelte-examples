@@ -20,7 +20,7 @@ export default {
   // ignore Rollup warnings for d3 circular dependencies
   onwarn: (warning, warn) => {
     if (warning.code === "CIRCULAR_DEPENDENCY") {
-      if (warning.ids.some((id) => /node_modules\/(d3-|@carbon\/charts)/.test(id))) {
+      if (warning.ids.some((id) => /node_modules\/(svelte|d3-|@carbon\/charts)/.test(id))) {
         return;
       }
     }
