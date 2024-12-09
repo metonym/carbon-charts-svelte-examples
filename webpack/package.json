@@ -6,15 +6,15 @@
     "build": "NODE_ENV=production webpack"
   },
   "devDependencies": {
-    "@carbon/charts-svelte": "^1.22.3",
-    "@carbon/styles": "^1.69.0",
+    "@carbon/charts-svelte": "^1.22.7",
+    "@carbon/styles": "^1.71.0",
     "css-loader": "^7.1.2",
     "d3": "^7.9.0",
     "html-webpack-plugin": "^5.6.3",
     "mini-css-extract-plugin": "^2.9.2",
-    "svelte": "^5.2.4",
+    "svelte": "^5.10.0",
     "svelte-loader": "^3.2.4",
-    "webpack": "^5.96.1",
+    "webpack": "^5.97.1",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.1.0"
   }

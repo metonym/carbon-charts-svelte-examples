@@ -10,15 +10,15 @@
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
   },
   "devDependencies": {
-    "@carbon/charts-svelte": "^1.22.3",
-    "@carbon/styles": "^1.69.0",
+    "@carbon/charts-svelte": "^1.22.7",
+    "@carbon/styles": "^1.71.0",
     "@sveltejs/adapter-node": "^5.2.9",
-    "@sveltejs/kit": "^2.8.1",
-    "@sveltejs/vite-plugin-svelte": "^4.0.1",
+    "@sveltejs/kit": "^2.9.1",
+    "@sveltejs/vite-plugin-svelte": "^4.0.2",
     "d3": "^7.9.0",
-    "svelte": "^5.2.4",
-    "svelte-check": "^4.0.9",
-    "typescript": "^5.6.3",
+    "svelte": "^5.10.0",
+    "svelte-check": "^4.1.1",
+    "typescript": "^5.7.2",
     "vite": "^5.4.11"
   }
 }
