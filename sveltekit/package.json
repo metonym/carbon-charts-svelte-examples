@@ -10,11 +10,11 @@
   "devDependencies": {
     "@carbon/charts-svelte": "^1.22.7",
     "@carbon/styles": "^1.71.0",
-    "@sveltejs/adapter-node": "^5.2.9",
-    "@sveltejs/kit": "^2.9.1",
-    "@sveltejs/vite-plugin-svelte": "^4.0.2",
+    "@sveltejs/adapter-node": "^5.2.10",
+    "@sveltejs/kit": "^2.12.1",
+    "@sveltejs/vite-plugin-svelte": "^4.0.4",
     "d3": "^7.9.0",
-    "svelte": "^5.10.0",
+    "svelte": "^5.14.4",
     "vite": "^5.4.11"
   }
 }

@@ -12,10 +12,10 @@
     "d3": "^7.9.0",
     "html-webpack-plugin": "^5.6.3",
     "mini-css-extract-plugin": "^2.9.2",
-    "svelte": "^5.10.0",
+    "svelte": "^5.14.4",
     "svelte-loader": "^3.2.4",
     "webpack": "^5.97.1",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.1.0"
+    "webpack-dev-server": "^5.2.0"
   }
 }
