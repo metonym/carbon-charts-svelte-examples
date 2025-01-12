@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "format": "prettier --ignore-path .gitignore --write . --cache",
+    "format": "prettier --write . --cache",
     "upgrade-examples": "bun upgrade-examples.ts"
   },
   "devDependencies": {
@@ -11,6 +11,9 @@
     "svelte": "latest"
   },
   "prettier": {
+    "plugins": [
+      "prettier-plugin-svelte"
+    ],
     "printWidth": 120
   }
 }
