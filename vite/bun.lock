@@ -4,10 +4,10 @@
     "": {
       "devDependencies": {
         "@carbon/charts-svelte": "^1.22.18",
-        "@carbon/styles": "^1.76.0",
+        "@carbon/styles": "^1.77.0",
         "@sveltejs/vite-plugin-svelte": "^4.0.4",
         "d3": "^7.9.0",
-        "svelte": "^5.22.6",
+        "svelte": "^5.23.0",
         "vite": "^5.4.14",
       },
     },
@@ -29,9 +29,9 @@
 
     "@carbon/motion": ["@carbon/motion@11.25.0", "", { "dependencies": { "@ibm/telemetry-js": "^1.5.0" } }, "sha512-oqrXmWmlVuXmKhHG1dUm4zy2TR8CGYqcentDcMEAJqcvlF1qhDuF/1j0JQ0X7mOl3/suGBtBsxCoC5CN8KO1IQ=="],
 
-    "@carbon/styles": ["@carbon/styles@1.76.0", "", { "dependencies": { "@carbon/colors": "^11.30.0", "@carbon/feature-flags": "^0.24.0", "@carbon/grid": "^11.32.0", "@carbon/layout": "^11.30.0", "@carbon/motion": "^11.25.0", "@carbon/themes": "^11.47.0", "@carbon/type": "^11.36.0", "@ibm/plex": "6.0.0-next.6", "@ibm/plex-mono": "0.0.3-alpha.0", "@ibm/plex-sans": "0.0.3-alpha.0", "@ibm/plex-sans-arabic": "0.0.3-alpha.0", "@ibm/plex-sans-devanagari": "0.0.3-alpha.0", "@ibm/plex-sans-hebrew": "0.0.3-alpha.0", "@ibm/plex-sans-thai": "0.0.3-alpha.0", "@ibm/plex-sans-thai-looped": "0.0.3-alpha.0", "@ibm/plex-serif": "0.0.3-alpha.0", "@ibm/telemetry-js": "^1.5.0" }, "peerDependencies": { "sass": "^1.33.0" }, "optionalPeers": ["sass"] }, "sha512-NzffRGFo/PpAbpsX24GkNdFat6gRwmDpswZbQvu1GWXxMYHyIDM9ObVF0n+gjy5bcnkMjFyvN4eINJf1uDSf4w=="],
+    "@carbon/styles": ["@carbon/styles@1.77.0", "", { "dependencies": { "@carbon/colors": "^11.30.0", "@carbon/feature-flags": "^0.24.0", "@carbon/grid": "^11.32.0", "@carbon/layout": "^11.30.0", "@carbon/motion": "^11.25.0", "@carbon/themes": "^11.48.0", "@carbon/type": "^11.36.0", "@ibm/plex": "6.0.0-next.6", "@ibm/plex-mono": "0.0.3-alpha.0", "@ibm/plex-sans": "0.0.3-alpha.0", "@ibm/plex-sans-arabic": "0.0.3-alpha.0", "@ibm/plex-sans-devanagari": "0.0.3-alpha.0", "@ibm/plex-sans-hebrew": "0.0.3-alpha.0", "@ibm/plex-sans-thai": "0.0.3-alpha.0", "@ibm/plex-sans-thai-looped": "0.0.3-alpha.0", "@ibm/plex-serif": "0.0.3-alpha.0", "@ibm/telemetry-js": "^1.5.0" }, "peerDependencies": { "sass": "^1.33.0" }, "optionalPeers": ["sass"] }, "sha512-PkiU35E6s7fUhFp6RgwEbA/BvipQ9EbMfu5kKjCoI0BH+LNyqnkNU69sEqZJ+pSXFhl7y+eGjVgByARvULXgwA=="],
 
-    "@carbon/themes": ["@carbon/themes@11.47.0", "", { "dependencies": { "@carbon/colors": "^11.30.0", "@carbon/layout": "^11.30.0", "@carbon/type": "^11.36.0", "@ibm/telemetry-js": "^1.5.0", "color": "^4.0.0" } }, "sha512-I+nQs+RANvZRTCWcqRtK1crKmI/9bYkefQaOW4pJIetTmOt3sezM0MVDQn20nNXEJNY6zRVB1TZU3+mxYI41UQ=="],
+    "@carbon/themes": ["@carbon/themes@11.48.0", "", { "dependencies": { "@carbon/colors": "^11.30.0", "@carbon/layout": "^11.30.0", "@carbon/type": "^11.36.0", "@ibm/telemetry-js": "^1.5.0", "color": "^4.0.0" } }, "sha512-MrDUdaY/VjsDzmeII94wcKKlamZpEfcsU7JO6Jz2Ums7TT+zhglH0JSUEJclwzeMwnKNgEhKUiBZjQYNmz3nLQ=="],
 
     "@carbon/type": ["@carbon/type@11.36.0", "", { "dependencies": { "@carbon/grid": "^11.32.0", "@carbon/layout": "^11.30.0", "@ibm/telemetry-js": "^1.5.0" } }, "sha512-SL0LQTyRoPeifHZy9KFMNheas4qa6BvdvADkd0E4L2tG6JOijpqkicRQ/OnCe5Z/DfIdqe7Qj+0Qm5uGz6G69Q=="],
 
@@ -375,7 +375,7 @@
 
     "source-map-js": ["source-map-js@1.2.1", "", {}, "sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA=="],
 
-    "svelte": ["svelte@5.22.6", "", { "dependencies": { "@ampproject/remapping": "^2.3.0", "@jridgewell/sourcemap-codec": "^1.5.0", "@sveltejs/acorn-typescript": "^1.0.5", "@types/estree": "^1.0.5", "acorn": "^8.12.1", "aria-query": "^5.3.1", "axobject-query": "^4.1.0", "clsx": "^2.1.1", "esm-env": "^1.2.1", "esrap": "^1.4.3", "is-reference": "^3.0.3", "locate-character": "^3.0.0", "magic-string": "^0.30.11", "zimmerframe": "^1.1.2" } }, "sha512-dxHyh3USJyayafSt5I5QD7KuoCM5ZGdIOtLQiKHEro7tymdh0jMcNkiSBVHW+LOA2jEqZEHhyfwN6/pCjx0Fug=="],
+    "svelte": ["svelte@5.23.0", "", { "dependencies": { "@ampproject/remapping": "^2.3.0", "@jridgewell/sourcemap-codec": "^1.5.0", "@sveltejs/acorn-typescript": "^1.0.5", "@types/estree": "^1.0.5", "acorn": "^8.12.1", "aria-query": "^5.3.1", "axobject-query": "^4.1.0", "clsx": "^2.1.1", "esm-env": "^1.2.1", "esrap": "^1.4.3", "is-reference": "^3.0.3", "locate-character": "^3.0.0", "magic-string": "^0.30.11", "zimmerframe": "^1.1.2" } }, "sha512-v0lL3NuKontiCxholEiAXCB+BYbndlKbwlDMK0DS86WgGELMJSpyqCSbJeMEMBDwOglnS7Ar2Rq0wwa/z2L8Vg=="],
 
     "topojson-client": ["topojson-client@3.1.0", "", { "dependencies": { "commander": "2" }, "bin": { "topo2geo": "bin/topo2geo", "topomerge": "bin/topomerge", "topoquantize": "bin/topoquantize" } }, "sha512-605uxS6bcYxGXw9qi62XyrV6Q3xwbndjachmNxu8HWTtVPxZfEJN9fd/SZS1Q54Sn2y0TMyMxFj/cJINqGHrKw=="],
 
