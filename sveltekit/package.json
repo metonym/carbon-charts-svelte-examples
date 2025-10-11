@@ -9,12 +9,12 @@
   },
   "devDependencies": {
     "@carbon/charts-svelte": "^1.22.18",
-    "@carbon/styles": "^1.91.0",
+    "@carbon/styles": "^1.92.0",
     "@sveltejs/adapter-node": "^5.3.3",
-    "@sveltejs/kit": "^2.43.8",
+    "@sveltejs/kit": "^2.46.4",
     "@sveltejs/vite-plugin-svelte": "^4.0.4",
     "d3": "^7.9.0",
-    "svelte": "^5.39.8",
+    "svelte": "^5.39.11",
     "vite": "^5.4.20"
   }
 }

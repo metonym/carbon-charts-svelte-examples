@@ -7,14 +7,14 @@
   },
   "devDependencies": {
     "@carbon/charts-svelte": "^1.22.18",
-    "@carbon/styles": "^1.91.0",
+    "@carbon/styles": "^1.92.0",
     "css-loader": "^7.1.2",
     "d3": "^7.9.0",
     "html-webpack-plugin": "^5.6.4",
     "mini-css-extract-plugin": "^2.9.4",
-    "svelte": "^5.39.8",
+    "svelte": "^5.39.11",
     "svelte-loader": "^3.2.4",
-    "webpack": "^5.102.0",
+    "webpack": "^5.102.1",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.2.2"
   }
