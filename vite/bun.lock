@@ -1,14 +1,15 @@
 {
   "lockfileVersion": 1,
+  "configVersion": 0,
   "workspaces": {
     "": {
       "devDependencies": {
         "@carbon/charts-svelte": "^1.22.18",
-        "@carbon/styles": "^1.92.0",
+        "@carbon/styles": "^1.94.0",
         "@sveltejs/vite-plugin-svelte": "^4.0.4",
         "d3": "^7.9.0",
-        "svelte": "^5.39.11",
-        "vite": "^5.4.20",
+        "svelte": "^5.43.5",
+        "vite": "^5.4.21",
       },
     },
   },
@@ -19,7 +20,7 @@
 
     "@carbon/colors": ["@carbon/colors@11.42.0", "", { "dependencies": { "@ibm/telemetry-js": "^1.5.0" } }, "sha512-kfEGVk2vzokkRrVwqUGYK8YLQ1Cn7cDhJ/lEz31kdBrUbR8vlgKSFq9GTqAgZiqxbTC0surR3nBF2kU3NTNPOg=="],
 
-    "@carbon/feature-flags": ["@carbon/feature-flags@0.31.0", "", { "dependencies": { "@ibm/telemetry-js": "^1.5.0" } }, "sha512-ikDGgyOc6SZIoNb7jGBTN/ieTbju7WuB4mzzSXDFA4JJKhj9EpZy+cmMiXpRE+dwK+KIFTwjtz6iDyyd52TK0Q=="],
+    "@carbon/feature-flags": ["@carbon/feature-flags@0.32.0", "", { "dependencies": { "@ibm/telemetry-js": "^1.5.0" } }, "sha512-a1rFplSEFPwJ4ZsuwvOaKHgoLqPNhjCJdWY6VTgCoytRZqtgYWqwYFEqQkm9/f1mX1lHr6oK/eBpAcmi0Izuvg=="],
 
     "@carbon/grid": ["@carbon/grid@11.45.0", "", { "dependencies": { "@carbon/layout": "^11.43.0", "@ibm/telemetry-js": "^1.5.0" } }, "sha512-J8hh5li0Q0RRS6IGg+MVPQVfjp1ePxzQsyMyjQOHLux8i8HwiWJmKLQ+4lKMzRXorLG2RtEoPVl00EaKlQEgKQ=="],
 
@@ -27,7 +28,7 @@
 
     "@carbon/motion": ["@carbon/motion@11.37.0", "", { "dependencies": { "@ibm/telemetry-js": "^1.5.0" } }, "sha512-bjFzY8Wy5Umj+g41ZGj3L3b/z2gDBDKfzfc9M3ZAHaj73PZ7Z/Z5jT0IFlihEv8wUwZfbhbtnb4jeNhckfLINA=="],
 
-    "@carbon/styles": ["@carbon/styles@1.92.0", "", { "dependencies": { "@carbon/colors": "^11.42.0", "@carbon/feature-flags": "^0.31.0", "@carbon/grid": "^11.45.0", "@carbon/layout": "^11.43.0", "@carbon/motion": "^11.37.0", "@carbon/themes": "^11.62.0", "@carbon/type": "^11.49.0", "@ibm/plex": "6.0.0-next.6", "@ibm/plex-mono": "1.1.0", "@ibm/plex-sans": "1.1.0", "@ibm/plex-sans-arabic": "1.1.0", "@ibm/plex-sans-devanagari": "1.1.0", "@ibm/plex-sans-hebrew": "1.1.0", "@ibm/plex-sans-thai": "1.1.0", "@ibm/plex-sans-thai-looped": "1.1.0", "@ibm/plex-serif": "1.1.0", "@ibm/telemetry-js": "^1.5.0" }, "peerDependencies": { "sass": "^1.33.0" }, "optionalPeers": ["sass"] }, "sha512-g1bq/qpoq2e583LgxoR4Xt4wWeMb2U32QlLA9/3GPkb+NqtHuNbr8WhuLdaphieUOf78xQ76FWuHMX4FtzBLTg=="],
+    "@carbon/styles": ["@carbon/styles@1.94.0", "", { "dependencies": { "@carbon/colors": "^11.42.0", "@carbon/feature-flags": "0.32.0", "@carbon/grid": "^11.45.0", "@carbon/layout": "^11.43.0", "@carbon/motion": "^11.37.0", "@carbon/themes": "^11.62.0", "@carbon/type": "^11.49.0", "@ibm/plex": "6.0.0-next.6", "@ibm/plex-mono": "1.1.0", "@ibm/plex-sans": "1.1.0", "@ibm/plex-sans-arabic": "1.1.0", "@ibm/plex-sans-devanagari": "1.1.0", "@ibm/plex-sans-hebrew": "1.1.0", "@ibm/plex-sans-thai": "1.1.0", "@ibm/plex-sans-thai-looped": "1.1.0", "@ibm/plex-serif": "1.1.0", "@ibm/telemetry-js": "^1.5.0" }, "peerDependencies": { "sass": "^1.33.0" }, "optionalPeers": ["sass"] }, "sha512-I4Q20ZsLE6/75E2oWkMEFa7RmU2uGI3w+mteIsYw/D6m/1+SaPdLzQmXhWll2N/aqgXje1oliqyg/3puyrTMBQ=="],
 
     "@carbon/themes": ["@carbon/themes@11.62.0", "", { "dependencies": { "@carbon/colors": "^11.42.0", "@carbon/layout": "^11.43.0", "@carbon/type": "^11.49.0", "@ibm/telemetry-js": "^1.5.0", "color": "^4.0.0" } }, "sha512-/sPOiGaC4YtXBiA4uNx2PuBxPOAjVMOThrsHfdDbroUvm2yigvRZUJcJTivunOFKtfIC5EOoKxxAP3XzxWjf0Q=="],
 
@@ -375,13 +376,13 @@
 
     "source-map-js": ["source-map-js@1.2.1", "", {}, "sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA=="],
 
-    "svelte": ["svelte@5.39.11", "", { "dependencies": { "@jridgewell/remapping": "^2.3.4", "@jridgewell/sourcemap-codec": "^1.5.0", "@sveltejs/acorn-typescript": "^1.0.5", "@types/estree": "^1.0.5", "acorn": "^8.12.1", "aria-query": "^5.3.1", "axobject-query": "^4.1.0", "clsx": "^2.1.1", "esm-env": "^1.2.1", "esrap": "^2.1.0", "is-reference": "^3.0.3", "locate-character": "^3.0.0", "magic-string": "^0.30.11", "zimmerframe": "^1.1.2" } }, "sha512-8MxWVm2+3YwrFbPaxOlT1bbMi6OTenrAgks6soZfiaS8Fptk4EVyRIFhJc3RpO264EeSNwgjWAdki0ufg4zkGw=="],
+    "svelte": ["svelte@5.43.5", "", { "dependencies": { "@jridgewell/remapping": "^2.3.4", "@jridgewell/sourcemap-codec": "^1.5.0", "@sveltejs/acorn-typescript": "^1.0.5", "@types/estree": "^1.0.5", "acorn": "^8.12.1", "aria-query": "^5.3.1", "axobject-query": "^4.1.0", "clsx": "^2.1.1", "esm-env": "^1.2.1", "esrap": "^2.1.0", "is-reference": "^3.0.3", "locate-character": "^3.0.0", "magic-string": "^0.30.11", "zimmerframe": "^1.1.2" } }, "sha512-HQoZArIewxQVNedseDsgMgnRSC4XOXczxXLF9rOJaPIJkg58INOPUiL8aEtzqZIXNSZJyw8NmqObwg/voajiHQ=="],
 
     "topojson-client": ["topojson-client@3.1.0", "", { "dependencies": { "commander": "2" }, "bin": { "topo2geo": "bin/topo2geo", "topomerge": "bin/topomerge", "topoquantize": "bin/topoquantize" } }, "sha512-605uxS6bcYxGXw9qi62XyrV6Q3xwbndjachmNxu8HWTtVPxZfEJN9fd/SZS1Q54Sn2y0TMyMxFj/cJINqGHrKw=="],
 
     "tslib": ["tslib@2.8.1", "", {}, "sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w=="],
 
-    "vite": ["vite@5.4.20", "", { "dependencies": { "esbuild": "^0.21.3", "postcss": "^8.4.43", "rollup": "^4.20.0" }, "optionalDependencies": { "fsevents": "~2.3.3" }, "peerDependencies": { "@types/node": "^18.0.0 || >=20.0.0", "less": "*", "lightningcss": "^1.21.0", "sass": "*", "sass-embedded": "*", "stylus": "*", "sugarss": "*", "terser": "^5.4.0" }, "optionalPeers": ["@types/node", "less", "lightningcss", "sass", "sass-embedded", "stylus", "sugarss", "terser"], "bin": { "vite": "bin/vite.js" } }, "sha512-j3lYzGC3P+B5Yfy/pfKNgVEg4+UtcIJcVRt2cDjIOmhLourAqPqf8P7acgxeiSgUB7E3p2P8/3gNIgDLpwzs4g=="],
+    "vite": ["vite@5.4.21", "", { "dependencies": { "esbuild": "^0.21.3", "postcss": "^8.4.43", "rollup": "^4.20.0" }, "optionalDependencies": { "fsevents": "~2.3.3" }, "peerDependencies": { "@types/node": "^18.0.0 || >=20.0.0", "less": "*", "lightningcss": "^1.21.0", "sass": "*", "sass-embedded": "*", "stylus": "*", "sugarss": "*", "terser": "^5.4.0" }, "optionalPeers": ["@types/node", "less", "lightningcss", "sass", "sass-embedded", "stylus", "sugarss", "terser"], "bin": { "vite": "bin/vite.js" } }, "sha512-o5a9xKjbtuhY6Bi5S3+HvbRERmouabWbyUcpXXUA1u+GNUKoROi9byOJ8M0nHbHYHkYICiMlqxkg1KkYmm25Sw=="],
 
     "vitefu": ["vitefu@1.0.5", "", { "peerDependencies": { "vite": "^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0" }, "optionalPeers": ["vite"] }, "sha512-h4Vflt9gxODPFNGPwp4zAMZRpZR7eslzwH2c5hn5kNZ5rhnKyRJ50U+yGCdc2IRaBs8O4haIgLNGrV5CrpMsCA=="],
 
