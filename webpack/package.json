@@ -7,15 +7,15 @@
   },
   "devDependencies": {
     "@carbon/charts-svelte": "^1.22.18",
-    "@carbon/styles": "^1.95.0",
+    "@carbon/styles": "^1.98.0",
     "css-loader": "^7.1.2",
     "d3": "^7.9.0",
-    "html-webpack-plugin": "^5.6.5",
-    "mini-css-extract-plugin": "^2.9.4",
-    "svelte": "^5.45.2",
+    "html-webpack-plugin": "^5.6.6",
+    "mini-css-extract-plugin": "^2.10.0",
+    "svelte": "^5.46.4",
     "svelte-loader": "^3.2.4",
-    "webpack": "^5.103.0",
+    "webpack": "^5.104.1",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.2.2"
+    "webpack-dev-server": "^5.2.3"
   }
 }
